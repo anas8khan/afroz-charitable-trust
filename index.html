@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Afroz Charitable Trust | Restoring Sight in Rural Jharkhand</title>
-  <meta name="description" content="Afroz Charitable Trust brings free eye screening, cataract surgery and spectacles to rural villages of Jharkhand and Bihar. Partner with us under CSR (Schedule VII – Healthcare)." />
+  <title>Afroj Charitable Trust | Restoring Sight in Rural Jharkhand</title>
+  <meta name="description" content="Afroj Charitable Trust brings free eye screening, cataract surgery and spectacles to rural villages of Jharkhand and Bihar. Partner with us under CSR (Schedule VII – Healthcare)." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700;900&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@700;900&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
@@ -24,9 +25,13 @@
         <li>NGO Darpan: <span class="ph">JH/20XX/XXXXXXX</span></li>
       </ul>
       <div class="topbar__contact">
-        <a href="mailto:csr@afrozcharitabletrust.org">csr@afrozcharitabletrust.org</a>
+        <a href="mailto:csr@afrojcharitabletrust.org">csr@afrojcharitabletrust.org</a>
         <a href="tel:+910000000000">+91 00000 00000</a>
-        <button class="lang" type="button">EN | हिंदी</button>
+        <a href="#donate" class="topbar__donate">♥ Donate</a>
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang="hi" aria-pressed="false" lang="hi">हिंदी</button>
+        </div>
       </div>
     </div>
   </div>
@@ -34,11 +39,9 @@
   <!-- 2. HEADER / NAV -->
   <header class="header" id="top" data-section="2 · Header & navigation">
     <div class="container header__inner">
-      <a href="#top" class="logo">
-        <span class="logo__mark" aria-hidden="true">
-          <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="22" fill="#0f5c4d"/><path d="M8 24c4-7 9.5-11 16-11s12 4 16 11c-4 7-9.5 11-16 11S12 31 8 24z" fill="#fff"/><circle cx="24" cy="24" r="6.5" fill="#f2a516"/><circle cx="24" cy="24" r="3" fill="#0f5c4d"/></svg>
-        </span>
-        <span class="logo__text">Afroz<br /><small>Charitable Trust</small></span>
+      <a href="#top" class="logo" aria-label="Afroj Charitable Trust – home">
+        <img class="logo__mark" src="assets/logo-mark.png" alt="" width="52" height="53" />
+        <span class="logo__text"><span class="logo__name">Afroj</span> <span class="logo__trust">Charitable Trust</span><small>Small Acts… Big Changes</small></span>
       </a>
       <nav class="nav" id="nav" aria-label="Main">
         <a href="#about">About</a>
@@ -64,7 +67,7 @@
         <div class="hero__copy">
           <p class="eyebrow">Rural Eye Care · Jharkhand &amp; Bihar</p>
           <h1>No villager should lose sight to a <span class="hl">curable</span> condition.</h1>
-          <p class="lead">Afroz Charitable Trust takes free eye screening, cataract surgery and spectacles to the doorstep of rural families who cannot travel, cannot pay, and are often never diagnosed.</p>
+          <p class="lead">Afroj Charitable Trust takes free eye screening, cataract surgery and spectacles to the doorstep of rural families who cannot travel, cannot pay, and are often never diagnosed.</p>
           <div class="hero__actions">
             <a href="#csr" class="btn btn--primary btn--lg">Partner under CSR</a>
             <a href="#proposal" class="btn btn--outline btn--lg">⬇ Download CSR Proposal</a>
@@ -95,6 +98,32 @@
         <div class="stat"><span class="stat__num" data-count="10000">0</span><span class="stat__plus">+</span><p>Free spectacles</p></div>
       </div>
       <p class="container note">* Sample figures for layout. Replace with verified numbers from trust records.</p>
+    </section>
+
+    <!-- 4b. FOCUS AREAS (from logo) -->
+    <section class="pillars" data-section="4b · Focus areas – the four pillars from the trust logo">
+      <div class="container">
+        <p class="pillars__tagline">Small Acts… Big Changes</p>
+        <div class="pillars__grid">
+          <div class="pillar pillar--health">
+            <span class="pillar__icon">🩺</span>
+            <div><h3>Health</h3><p>Rural eye care: camps, surgeries, spectacles</p></div>
+            <span class="pillar__flag">Flagship</span>
+          </div>
+          <div class="pillar pillar--education">
+            <span class="pillar__icon">📚</span>
+            <div><h3>Education</h3><p>School vision checks so children keep learning</p></div>
+          </div>
+          <div class="pillar pillar--empowerment">
+            <span class="pillar__icon">💪</span>
+            <div><h3>Empowerment</h3><p>Restored sight means restored livelihoods</p></div>
+          </div>
+          <div class="pillar pillar--community">
+            <span class="pillar__icon">🤝</span>
+            <div><h3>Community</h3><p>ASHA workers, panchayats &amp; local volunteers</p></div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- 5. THE PROBLEM -->
@@ -208,14 +237,14 @@
       <div class="container split split--reverse">
         <div class="map" data-label="MAP: Districts & villages served (Jharkhand / Bihar border)">
           <svg viewBox="0 0 400 320" aria-hidden="true">
-            <path d="M40 60 L150 30 L270 50 L360 110 L340 220 L250 290 L120 280 L50 200 Z" fill="#dcefe8" stroke="#0f5c4d" stroke-width="2"/>
-            <g fill="#f2a516" stroke="#fff" stroke-width="2">
+            <path d="M40 60 L150 30 L270 50 L360 110 L340 220 L250 290 L120 280 L50 200 Z" fill="#e6f2e4" stroke="#055e26" stroke-width="2"/>
+            <g fill="#fb8706" stroke="#fff" stroke-width="2">
               <circle cx="190" cy="150" r="11"/>
               <circle cx="120" cy="110" r="6"/><circle cx="250" cy="100" r="6"/><circle cx="280" cy="190" r="6"/>
               <circle cx="150" cy="220" r="6"/><circle cx="90" cy="180" r="6"/><circle cx="220" cy="240" r="6"/>
               <circle cx="310" cy="140" r="6"/><circle cx="170" cy="80" r="6"/>
             </g>
-            <text x="190" y="180" text-anchor="middle" font-size="13" font-weight="700" fill="#0f5c4d">Chouparan</text>
+            <text x="190" y="180" text-anchor="middle" font-size="13" font-weight="700" fill="#0055a0">Chouparan</text>
           </svg>
         </div>
         <div>
@@ -405,7 +434,7 @@
           <p>Share your focus area and budget. We'll send a tailored proposal within 48 hours.</p>
           <ul class="contact__list">
             <li><span>📍</span><span class="ph">Trust address, Chouparan, Hazaribagh, Jharkhand – PIN</span></li>
-            <li><span>✉️</span>csr@afrozcharitabletrust.org</li>
+            <li><span>✉️</span>csr@afrojcharitabletrust.org</li>
             <li><span>📞</span><span class="ph">+91 00000 00000</span></li>
             <li><span>🕘</span>Mon–Sat, 10 AM – 6 PM</li>
           </ul>
@@ -456,7 +485,7 @@
   <footer class="footer" data-section="15 · Footer – registrations & disclosures">
     <div class="container footer__grid">
       <div>
-        <div class="logo logo--light"><span class="logo__text">Afroz<br /><small>Charitable Trust</small></span></div>
+        <div class="footer__logo"><img src="assets/logo.png" alt="Afroj Charitable Trust – Small Acts… Big Changes" width="180" height="180" loading="lazy" /></div>
         <p>Restoring sight and dignity in rural India since <span class="ph">20XX</span>.</p>
       </div>
       <div>
@@ -473,11 +502,12 @@
       </div>
     </div>
     <div class="container footer__bottom">
-      <span>© 2026 Afroz Charitable Trust. All rights reserved.</span>
+      <span>© 2026 Afroj Charitable Trust. All rights reserved.</span>
       <span>Clinical partner: <a href="https://www.dristyeyehospital.com/" target="_blank" rel="noopener">Dristy Eye Hospital</a> · Privacy Policy · Donation Refund Policy</span>
     </div>
   </footer>
 
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

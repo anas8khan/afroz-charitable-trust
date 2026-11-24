@@ -1,10 +1,11 @@
-# Afroz Charitable Trust – Website Layout (Prototype)
+# Afroj Charitable Trust – Website Layout (Prototype)
 
-A clickable layout prototype for the **Afroz Charitable Trust** website. The site is aimed at **rural eye-care** and at **attracting CSR funders**. It is a review mock-up only. Development (CMS, real content, forms) starts after it is approved.
+A clickable layout prototype for the **Afroj Charitable Trust** website. The site is aimed at **rural eye-care** and at **attracting CSR funders**. It is a review mock-up only. Development (CMS, real content, forms) starts after it is approved.
 
 ## Preview
 
 - Open `index.html` in any browser. No build step is needed.
+- Use the **EN | हिंदी** switch (top-right) to change language. The choice is remembered, and `?lang=hi` links straight to Hindi.
 - Click **"Show layout labels"** (bottom-right) to see each section's name and purpose during a client review.
 - Highlighted <mark>yellow dashed</mark> values are **placeholders** that must be replaced with verified trust data.
 
@@ -16,6 +17,7 @@ A clickable layout prototype for the **Afroz Charitable Trust** website. The sit
 | 2 | Header | Clear "Partner with Us" and "Donate" buttons |
 | 3 | Hero | One rural mission statement, cost-per-impact card, CSR call-to-action |
 | 4 | Impact counters | Scale of work (screenings, surgeries, camps, villages) |
+| 4b | Focus areas | The logo's four pillars (Education, Health, Empowerment, Community) and the tagline "Small Acts… Big Changes" |
 | 5 | The rural problem | Why funding is needed (distance, cost, awareness) |
 | 6 | Our model | Mobilise → Screen → Transport → Treat → Follow-up |
 | 7 | Programs | Each program is a fundable project with cost and outcome |
@@ -40,8 +42,12 @@ A clickable layout prototype for the **Afroz Charitable Trust** website. The sit
 - [ ] Cost per surgery, per camp, per school and per spectacle pair
 - [ ] Trustee names, photos and short bios
 - [ ] High-quality, consented photos and videos from camps and beneficiaries
-- [ ] Domain (e.g. `afrozcharitabletrust.org`) and official email
+- [ ] Domain (e.g. `afrojcharitabletrust.org`) and official email
+
+## Branding
+
+The colours and logo come from the trust's official logo (`assets/logo.png`): green `#055e26`, blue `#0055a0`, orange `#fb8706` and sun-yellow `#fcb304`. `assets/logo-mark.png` is the emblem used in the header, and `assets/favicon.png` is the browser-tab icon. For production, ask the designer for an SVG version of the logo.
 
 ## Tech (prototype)
 
-Plain HTML, CSS and JavaScript. The plan for production is React + Vite + Tailwind with pre-rendered pages (for SEO) and Contentful as the CMS, the same stack as the Dristy Eye Hospital site.
+Plain HTML, CSS and JavaScript. Hindi translations are in `js/i18n.js`. The plan for production is React + Vite + Tailwind with pre-rendered pages (for SEO) and Contentful as the CMS, the same stack as the Dristy Eye Hospital site.
