@@ -1,53 +1,54 @@
-# Afroj Charitable Trust – Website Layout (Prototype)
+# Afroj Charitable Trust – Website
 
-A clickable layout prototype for the **Afroj Charitable Trust** website. The site is aimed at **rural eye-care** and at **attracting CSR funders**. It is a review mock-up only. Development (CMS, real content, forms) starts after it is approved.
+Website for **Afroj Charitable Trust** (Reg. No. 10949/1310, Indian Trusts Act 1882, est. 2013), Chouparan, Hazaribagh, Jharkhand. It is built to explain **what the trust does, how it works and its impact**, so CSR teams and donors can decide to fund it quickly.
 
-## Preview
+Live preview: https://anas8khan.github.io/afroz-charitable-trust/
 
-- Open `index.html` in any browser. No build step is needed.
-- Use the **EN | हिंदी** switch (top-right) to change language. The choice is remembered, and `?lang=hi` links straight to Hindi.
-- Click **"Show layout labels"** (bottom-right) to see each section's name and purpose during a client review.
-- Highlighted <mark>yellow dashed</mark> values are **placeholders** that must be replaced with verified trust data.
+## Page structure
 
-## Page structure (home page)
+| Section | Purpose for CSR funders |
+|---|---|
+| Top bar | Registration facts up front (Reg. No., Act, 12A/80G, CSR-1) |
+| Hero | Real field photo, tagline, CSR call to action, impact card (74,344+ free cataract surgeries) |
+| Impact numbers | 74,344+ free surgeries since 2013, 6,254 in 2025–26, 1,00,000+ patients/year, 93% surgeries free, 50,000+ students, 10,000+ trees |
+| Who we are | Origin story (2011 survey → 2013 registration → own hospital), 3 centres, govt. support |
+| Our journey | Timeline 2011 → 2025–26 → goal of 10,000 free surgeries a year |
+| Secretary's message | Summary of Md. Imran Khan's message from the Annual Report |
+| How we work | Identify → Screen → Counsel → Treat → Follow up → Reconnect (community-to-care pathway) |
+| Our work | 6 running programmes with "since" year, Schedule VII tag and key metric, plus "Beyond eye care" |
+| Dristy Eye Hospital | Clinical quality indicators, services, medical team |
+| CSR alignment | Programme → Schedule VII clause → SDG mapping table |
+| Where we work | Hazaribagh, Chatra, Koderma; centres and camp villages |
+| Stories of change | Featured Kabilash Devi story + beneficiary quotes with photos |
+| From the field | Auto-scrolling gallery of real photos |
+| CSR partnership | "Close the gap" meter (6,254 of 10,000), why partner, 6 funding options, process, 2026–30 roadmap, proposal request |
+| Partners | DBCS/NPCBVI, Ayushman Bharat, Dristy Eye Hospital, "Your company" |
+| Transparency & governance | Registration numbers, audited fund use, documents, compliance, trustees, hospital disclosure |
+| Get involved | Corporates, individual donors (Razorpay), volunteers, spread the word |
+| Contact | CSR contact person and enquiry form (opens a pre-filled email to the trust) |
 
-| # | Section | Purpose for CSR funders |
-|---|---------|-------------------------|
-| 1 | Utility bar | CSR-1, 12A/80G and Darpan IDs visible straight away |
-| 2 | Header | Clear "Partner with Us" and "Donate" buttons |
-| 3 | Hero | One rural mission statement, cost-per-impact card, CSR call-to-action |
-| 4 | Impact counters | Scale of work (screenings, surgeries, camps, villages) |
-| 4b | Focus areas | The logo's four pillars (Education, Health, Empowerment, Community) and the tagline "Small Acts… Big Changes" |
-| 5 | The rural problem | Why funding is needed (distance, cost, awareness) |
-| 6 | Our model | Mobilise → Screen → Transport → Treat → Follow-up |
-| 7 | Programs | Each program is a fundable project with cost and outcome |
-| 8 | Where we work | District and village footprint map |
-| 9 | CSR partnership | Why partner, funding tiers, 5-step process, proposal download |
-| 10 | Transparency | Statutory documents and fund-utilisation chart |
-| 11 | Governance | Trustees and the disclosed relationship with Dristy Eye Hospital |
-| 12 | Stories | Beneficiary testimonials (photo/video) |
-| 13 | Partners | Supporter logos, with a "Your logo here" prompt |
-| 14 | CSR enquiry form | Captures leads: company, interest area, budget |
-| 15 | Footer | Registration numbers, policies, hospital link |
+Inspired by what works for established NGOs such as NBJK (focus areas, impact numbers, stories, partners, governance, get-involved paths), adapted for corporate CSR decision makers.
 
-## Planned inner pages (development phase)
+## Content sources
 
-`/about` · `/programs/:slug` · `/impact` (reports and dashboards) · `/csr` · `/transparency` · `/stories` · `/gallery` · `/donate` · `/contact` · Hindi version (`/hi`)
+- **Afroj Charitable Trust Annual Report 2025–26** – surgery figures, journey, Secretary's message, care pathway, clinical quality indicators, services, doctors, Kabilash Devi story, CSR opportunities, 2026–30 roadmap, compliance, registration numbers and contact.
+- **Audit reports FY 2021–22 to 2023–24** – "₹3.3 crore spent in FY 2023–24, over 90% on hospital and patient care", activity list under "Beyond eye care", registered office address.
+- Other programme figures (school screening, doorstep camps, trees, blankets) come from the existing trust/hospital content.
 
-## Content checklist from the trust
+## Language
 
-- [ ] Trust deed, 12A, 80G, CSR-1, PAN, NGO Darpan (and FCRA if any)
-- [ ] Audited financials and annual reports for the last 3 years
-- [ ] Verified impact numbers (screenings, surgeries, camps, villages)
-- [ ] Cost per surgery, per camp, per school and per spectacle pair
-- [ ] Trustee names, photos and short bios
-- [ ] High-quality, consented photos and videos from camps and beneficiaries
-- [ ] Domain (e.g. `afrojcharitabletrust.org`) and official email
+`EN | हिंदी` switch in the top bar. English text in `index.html` is the key; Hindi translations live in `js/hi.js`. Anything not translated falls back to English. The choice is remembered, and `?lang=hi` opens the Hindi version directly. When you change English text in `index.html`, update the matching key in `js/hi.js`.
 
-## Branding
+## Before launch – details to fill in
 
-The colours and logo come from the trust's official logo (`assets/logo.png`): green `#055e26`, blue `#0055a0`, orange `#fb8706` and sun-yellow `#fcb304`. `assets/logo-mark.png` is the emblem used in the header, and `assets/favicon.png` is the browser-tab icon. For production, ask the designer for an SVG version of the logo.
+Values highlighted with a dashed yellow box are placeholders:
 
-## Tech (prototype)
+- [ ] Cost per partnership option (`₹X lakh`) – e.g. cost per cataract surgery, per camp, per school drive
+- [ ] CSR proposal PDF and downloadable Annual Report 2025–26
+- [ ] Trust's own email/domain (currently imranchouparan@gmail.com, as listed in the Annual Report)
+- [ ] A photo of Kabilash Devi (with consent) for the featured story
+- [ ] Partner/supporter logos and any CSR partner testimonials
+- [ ] Hindi review by a native speaker
+## Tech
 
-Plain HTML, CSS and JavaScript. Hindi translations are in `js/i18n.js`. The plan for production is React + Vite + Tailwind with pre-rendered pages (for SEO) and Contentful as the CMS, the same stack as the Dristy Eye Hospital site.
+Plain HTML, CSS and JavaScript – no build step. Hosted on GitHub Pages. Photos in `assets/img/` are real field photos from the trust's programmes, resized for fast loading.

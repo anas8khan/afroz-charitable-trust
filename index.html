@@ -2,32 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Afroj Charitable Trust | Restoring Sight in Rural Jharkhand</title>
-  <meta name="description" content="Afroj Charitable Trust brings free eye screening, cataract surgery and spectacles to rural villages of Jharkhand and Bihar. Partner with us under CSR (Schedule VII – Healthcare)." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Afroj Charitable Trust | Restoring Sight & Dignity in Rural Jharkhand since 2013</title>
+  <meta name="description" content="Afroj Charitable Trust (Reg. No. 10949/1310 · 12A · 80G · CSR-1 CSR00020786) has provided 74,344+ free cataract surgeries in rural Jharkhand — 6,254 in 2025–26 alone. Partner with us under CSR." />
+  <meta name="theme-color" content="#055e26" />
+  <meta property="og:title" content="Afroj Charitable Trust — Restoring sight. Restoring independence. Strengthening communities." />
+  <meta property="og:description" content="74,344+ free cataract surgeries. 6,254 in 2025–26. 1,00,000+ patients served every year. Help us reach 10,000 free surgeries a year in rural Jharkhand." />
+  <meta property="og:image" content="assets/img/hero.jpg" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700;900&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@700;900&display=swap" rel="stylesheet" />
-  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@700;900&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Noto+Serif+Devanagari:wght@700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+  <div class="progress" id="progress" aria-hidden="true"></div>
 
-  <!-- Presentation helper: toggles section labels for client review -->
-  <button class="layout-toggle" id="layoutToggle" type="button" title="Show/hide section labels">Show layout labels</button>
-
-  <!-- 1. UTILITY BAR -->
-  <div class="topbar" data-section="1 · Utility bar – registrations build instant trust">
+  <!-- ============ TOP BAR ============ -->
+  <div class="topbar">
     <div class="container topbar__inner">
-      <ul class="topbar__badges">
-        <li>CSR-1 Reg: <span class="ph">CSR000XXXXX</span></li>
-        <li>12A &amp; 80G Registered</li>
-        <li>NGO Darpan: <span class="ph">JH/20XX/XXXXXXX</span></li>
+      <ul class="topbar__facts">
+        <li>Regd. under Indian Trusts Act, 1882</li>
+        <li>Reg. No. 10949/1310</li>
+        <li>12A &amp; 80G registered</li>
+        <li>CSR-1: CSR00020786</li>
       </ul>
-      <div class="topbar__contact">
-        <a href="mailto:csr@afrojcharitabletrust.org">csr@afrojcharitabletrust.org</a>
-        <a href="tel:+910000000000">+91 00000 00000</a>
-        <a href="#donate" class="topbar__donate">♥ Donate</a>
+      <div class="topbar__actions">
+        <a href="tel:+919771740140" class="topbar__phone">+91 97717 40140</a>
         <div class="lang" role="group" aria-label="Language">
           <button type="button" data-lang="en" aria-pressed="true">EN</button>
           <button type="button" data-lang="hi" aria-pressed="false" lang="hi">हिंदी</button>
@@ -36,436 +37,703 @@
     </div>
   </div>
 
-  <!-- 2. HEADER / NAV -->
-  <header class="header" id="top" data-section="2 · Header & navigation">
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="top">
     <div class="container header__inner">
       <a href="#top" class="logo" aria-label="Afroj Charitable Trust – home">
-        <img class="logo__mark" src="assets/logo-mark.png" alt="" width="52" height="53" />
+        <img class="logo__mark" src="assets/logo-mark.png" alt="" width="50" height="51" />
         <span class="logo__text"><span class="logo__name">Afroj</span> <span class="logo__trust">Charitable Trust</span><small>Small Acts… Big Changes</small></span>
       </a>
       <nav class="nav" id="nav" aria-label="Main">
         <a href="#about">About</a>
-        <a href="#programs">Programs</a>
-        <a href="#impact">Impact</a>
-        <a href="#reach">Where We Work</a>
-        <a href="#csr">CSR Partnership</a>
+        <a href="#work">Our Work</a>
+        <a href="#hospital">Hospital</a>
+        <a href="#impact" class="nav__opt">Impact</a>
+        <a href="#stories" class="nav__opt">Stories</a>
         <a href="#transparency">Transparency</a>
+        <a href="#csr" class="nav__csr">CSR Partnership</a>
         <a href="#contact">Contact</a>
       </nav>
       <div class="header__cta">
-        <a href="#donate" class="btn btn--ghost">Donate</a>
-        <a href="#csr" class="btn btn--primary">Partner with Us</a>
+        <a href="#csr" class="btn btn--primary header__partner">Partner with Us</a>
+        <a href="https://razorpay.com/payment-button/pl_Qs6afCMOpSGgFo/view" target="_blank" rel="noopener" class="btn btn--accent header__donate"><span class="heart" aria-hidden="true">♥</span> Donate</a>
       </div>
-      <button class="burger" id="burger" aria-label="Open menu" type="button"><span></span><span></span><span></span></button>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" type="button"><span></span><span></span><span></span></button>
     </div>
   </header>
 
   <main>
-    <!-- 3. HERO -->
-    <section class="hero" data-section="3 · Hero – one clear message + CSR call-to-action">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <img class="hero__bg" src="assets/img/hero.jpg" alt="Patients and volunteers planting trees after free cataract surgery" />
+      <div class="hero__shade"></div>
       <div class="container hero__inner">
         <div class="hero__copy">
-          <p class="eyebrow">Rural Eye Care · Jharkhand &amp; Bihar</p>
-          <h1>No villager should lose sight to a <span class="hl">curable</span> condition.</h1>
-          <p class="lead">Afroj Charitable Trust takes free eye screening, cataract surgery and spectacles to the doorstep of rural families who cannot travel, cannot pay, and are often never diagnosed.</p>
+          <p class="hero__eyebrow"><span class="dot"></span>Rural Jharkhand · Since 2013</p>
+          <h1>Putting the last first — <span class="hl">one restored sight</span> at a time.</h1>
+          <p class="hero__lead"><strong class="hero__tagline">Restoring sight. Restoring independence. Strengthening communities.</strong> Afroj Charitable Trust brings free cataract surgery, eye screening, spectacles and community care to the poorest villages of Hazaribagh, Chatra and Koderma — through our own eye hospital and a network of village camps.</p>
           <div class="hero__actions">
-            <a href="#csr" class="btn btn--primary btn--lg">Partner under CSR</a>
-            <a href="#proposal" class="btn btn--outline btn--lg">⬇ Download CSR Proposal</a>
+            <a href="#csr" class="btn btn--accent btn--lg">Partner under CSR</a>
+            <a href="#proposal" class="btn btn--light btn--lg">⬇ CSR Proposal</a>
           </div>
-          <ul class="hero__trust">
-            <li>✔ Schedule VII (i) – Healthcare</li>
-            <li>✔ CSR-1 Registered with MCA</li>
-            <li>✔ Audited &amp; Utilisation Certified</li>
+          <ul class="hero__badges">
+            <li>12A · 80G · CSR-1 registered</li>
+            <li>Schedule VII (i) · (ii) · (iii) · (iv) · (x)</li>
+            <li>DBCS partner · Ayushman Bharat empanelled</li>
           </ul>
         </div>
-        <div class="hero__media">
-          <div class="photo photo--hero" data-label="PHOTO: Elderly villager after cataract surgery, with family, in village setting"></div>
-          <div class="hero__card">
-            <strong>₹<span class="ph">X,XXX</span></strong>
-            <span>restores sight for one person<br />(screening → surgery → follow-up)</span>
+        <aside class="hero__card">
+          <p class="hero__card-label">Sight restored since 2013</p>
+          <p class="hero__card-num"><span data-count="74344">74,344</span>+</p>
+          <p class="hero__card-sub">free cataract surgeries</p>
+          <div class="hero__card-row">
+            <div><strong><span data-count="6254">6,254</span></strong><span>free surgeries in 2025–26</span></div>
+            <div><strong><span data-count="100000">1,00,000</span>+</strong><span>patients served every year</span></div>
           </div>
-        </div>
+        </aside>
       </div>
     </section>
 
-    <!-- 4. IMPACT COUNTERS -->
-    <section class="stats" id="impact" data-section="4 · Impact numbers – the first thing CSR teams look for">
-      <div class="container stats__grid">
-        <div class="stat"><span class="stat__num" data-count="25000">0</span><span class="stat__plus">+</span><p>Villagers screened</p></div>
-        <div class="stat"><span class="stat__num" data-count="5000">0</span><span class="stat__plus">+</span><p>Free cataract surgeries</p></div>
-        <div class="stat"><span class="stat__num" data-count="300">0</span><span class="stat__plus">+</span><p>Village eye camps</p></div>
-        <div class="stat"><span class="stat__num" data-count="150">0</span><span class="stat__plus">+</span><p>Villages reached</p></div>
-        <div class="stat"><span class="stat__num" data-count="10000">0</span><span class="stat__plus">+</span><p>Free spectacles</p></div>
-      </div>
-      <p class="container note">* Sample figures for layout. Replace with verified numbers from trust records.</p>
-    </section>
-
-    <!-- 4b. FOCUS AREAS (from logo) -->
-    <section class="pillars" data-section="4b · Focus areas – the four pillars from the trust logo">
+    <!-- ============ IMPACT NUMBERS ============ -->
+    <section class="impact" id="impact">
       <div class="container">
-        <p class="pillars__tagline">Small Acts… Big Changes</p>
-        <div class="pillars__grid">
-          <div class="pillar pillar--health">
-            <span class="pillar__icon">🩺</span>
-            <div><h3>Health</h3><p>Rural eye care: camps, surgeries, spectacles</p></div>
-            <span class="pillar__flag">Flagship</span>
-          </div>
-          <div class="pillar pillar--education">
-            <span class="pillar__icon">📚</span>
-            <div><h3>Education</h3><p>School vision checks so children keep learning</p></div>
-          </div>
-          <div class="pillar pillar--empowerment">
-            <span class="pillar__icon">💪</span>
-            <div><h3>Empowerment</h3><p>Restored sight means restored livelihoods</p></div>
-          </div>
-          <div class="pillar pillar--community">
-            <span class="pillar__icon">🤝</span>
-            <div><h3>Community</h3><p>ASHA workers, panchayats &amp; local volunteers</p></div>
-          </div>
+        <div class="impact__grid">
+          <div class="stat reveal"><span class="stat__icon">👁️</span><p class="stat__num"><span data-count="74344">74,344</span>+</p><p class="stat__label">Free cataract surgeries since 2013</p></div>
+          <div class="stat reveal"><span class="stat__icon">🩺</span><p class="stat__num"><span data-count="6254">6,254</span></p><p class="stat__label">Free cataract surgeries in 2025–26</p></div>
+          <div class="stat reveal"><span class="stat__icon">🏥</span><p class="stat__num"><span data-count="100000">1,00,000</span>+</p><p class="stat__label">Patients served every year</p></div>
+          <div class="stat reveal"><span class="stat__icon">💚</span><p class="stat__num"><span data-count="93">93</span>%</p><p class="stat__label">Of all surgeries done free of cost</p></div>
+          <div class="stat reveal"><span class="stat__icon">🎒</span><p class="stat__num"><span data-count="50000">50,000</span>+</p><p class="stat__label">School children screened</p></div>
+          <div class="stat reveal"><span class="stat__icon">🌳</span><p class="stat__num"><span data-count="10000">10,000</span>+</p><p class="stat__label">Trees planted by patients</p></div>
         </div>
+        <p class="impact__note">Source: Afroj Charitable Trust Annual Report 2025–26 and trust records. Programme-wise data available on request.</p>
       </div>
     </section>
 
-    <!-- 5. THE PROBLEM -->
-    <section class="section problem" id="about" data-section="5 · The rural problem – why funding is needed">
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
       <div class="container split">
-        <div>
-          <p class="eyebrow">The Challenge</p>
-          <h2>In rural India, blindness is often a problem of <em>distance</em>, not medicine.</h2>
-          <p>Cataract surgery takes about 20 minutes. Yet thousands of elderly villagers around Chouparan, Hazaribagh and neighbouring districts live in avoidable darkness because the nearest eye surgeon is hours away, a day's wage is lost to travel, and no one in the family can accompany them.</p>
-          <ul class="ticks">
-            <li><strong>Distance:</strong> nearest eye specialist <span class="ph">XX</span> km away for most villages we serve</li>
-            <li><strong>Cost:</strong> surgery + travel + lost wages are unaffordable for daily-wage families</li>
-            <li><strong>Awareness:</strong> poor vision is accepted as "old age"</li>
-            <li><strong>Children:</strong> uncorrected vision pushes students to drop out</li>
-          </ul>
+        <div class="about__media reveal reveal--left">
+          <img class="about__img about__img--main" src="assets/img/care-2.jpg" alt="Village eye camp run by the trust" loading="lazy" />
+          <img class="about__img about__img--small" src="assets/img/hospital.jpg" alt="Dristy Eye Hospital, Chouparan" loading="lazy" />
+          <div class="about__badge"><strong>2013</strong><span>Serving rural Jharkhand since</span></div>
         </div>
-        <div class="problem__facts">
-          <div class="fact"><span class="fact__big"><span class="ph">XX</span>%</span><p>of blindness in India is avoidable or treatable <small>(Source: national blindness survey – to cite)</small></p></div>
-          <div class="fact"><span class="fact__big"><span class="ph">XX</span>%</span><p>of cases are due to cataract <small>(Source – to cite)</small></p></div>
-          <div class="fact"><span class="fact__big">1 in <span class="ph">X</span></span><p>elderly people screened at our camps needed surgery <small>(Trust camp data)</small></p></div>
+        <div class="reveal reveal--right">
+          <p class="eyebrow">Who We Are</p>
+          <h2>A community trust that grew out of one simple idea: no one should go blind because they are poor.</h2>
+          <p>Afroj Charitable Trust began in 2011, when a group of local volunteers in Chouparan identified more than 15,000 people living with cataract in the surrounding villages and started connecting them with free treatment at hospitals across the region. To give this work a permanent home, the trust was formally registered on 3 October 2013 under the Indian Trusts Act, 1882.</p>
+          <p>The trust then built <strong>Dristy Eye Hospital</strong> — its own fully-equipped eye hospital at Tajpur, Chouparan, with vision centres in Chatra and Koderma — and reaches deep into villages through camps, schools and doorstep care. Beyond eye care, we work for women, children, scheduled tribes, minorities, the differently-abled and the elderly.</p>
+          <ul class="ticks">
+            <li>Own hospital with PHACO surgery, foldable IOLs and Nd:YAG laser</li>
+            <li>3 eye care centres: Chouparan, Chatra and Koderma</li>
+            <li>Supported by the District Blindness Control Society · Ayushman Bharat empanelled</li>
+            <li>Goal: 10,000 free cataract surgeries a year and no curable blindness in Hazaribagh, Chatra and Koderma</li>
+          </ul>
+          <div class="about__actions">
+            <a href="#work" class="btn btn--primary">See Our Work</a>
+            <a href="https://www.dristyeyehospital.com/" target="_blank" rel="noopener" class="link">Visit Dristy Eye Hospital →</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- 6. OUR MODEL -->
-    <section class="section model" data-section="6 · Our model – shows how money turns into outcomes">
+    <!-- ============ JOURNEY ============ -->
+    <section class="section journey" id="journey">
       <div class="container">
-        <div class="section__head">
-          <p class="eyebrow">How We Work</p>
-          <h2>End-to-end care, from village to vision</h2>
-          <p>We don't just hold camps. We close the loop, so every patient identified is treated and followed up.</p>
+        <div class="section__head reveal">
+          <p class="eyebrow">Our Journey</p>
+          <h2>From a village survey to 74,344+ restored sights</h2>
         </div>
-        <ol class="steps">
-          <li class="step"><span class="step__icon">📣</span><h3>1. Mobilise</h3><p>ASHA workers, gram panchayats &amp; volunteers announce camps village to village.</p></li>
-          <li class="step"><span class="step__icon">🩺</span><h3>2. Screen</h3><p>Free eye check-ups at village camps, schools and haats.</p></li>
-          <li class="step"><span class="step__icon">🚐</span><h3>3. Transport</h3><p>Free pick-up and drop for patients needing surgery.</p></li>
-          <li class="step"><span class="step__icon">👁️</span><h3>4. Treat</h3><p>Free surgery, medicines, stay &amp; meals at our partner hospital.</p></li>
-          <li class="step"><span class="step__icon">🔁</span><h3>5. Follow-up</h3><p>Post-op checks &amp; spectacles in the village, with outcomes tracked digitally.</p></li>
+        <ol class="timeline">
+          <li class="timeline__item reveal"><span class="timeline__year">2011</span><h3>The need is found</h3><p>A community group identifies more than 15,000 people with cataract in and around Chouparan.</p></li>
+          <li class="timeline__item reveal"><span class="timeline__year">2011–13</span><h3>First surgeries</h3><p>Volunteers connect patients with free treatment at hospitals across the region.</p></li>
+          <li class="timeline__item reveal"><span class="timeline__year">2013</span><h3>Trust registered</h3><p>Afroj Charitable Trust is formally established (Reg. No. 10949/1310).</p></li>
+          <li class="timeline__item reveal"><span class="timeline__year">Next</span><h3>Our own hospital</h3><p>The trust builds Dristy Eye Hospital at Chouparan, with vision centres in Chatra and Koderma.</p></li>
+          <li class="timeline__item reveal"><span class="timeline__year">2017</span><h3>One Eye One Tree</h3><p>Every cataract surgery is now celebrated by planting a tree.</p></li>
+          <li class="timeline__item timeline__item--now reveal"><span class="timeline__year">2025–26</span><h3>6,254 free surgeries</h3><p>6,724 surgeries in the year — 93% of them free of cost.</p></li>
+          <li class="timeline__item timeline__item--goal reveal"><span class="timeline__year">Goal</span><h3>10,000 a year</h3><p>Free cataract surgeries every year, so no one in our districts stays blind from a curable cause.</p></li>
         </ol>
       </div>
     </section>
 
-    <!-- 7. PROGRAMS -->
-    <section class="section programs" id="programs" data-section="7 · Programs – each one is a fundable CSR project">
-      <div class="container">
-        <div class="section__head">
-          <p class="eyebrow">Our Programs</p>
-          <h2>Ready-to-fund projects with clear costs and outcomes</h2>
-        </div>
-        <div class="cards">
-          <article class="card">
-            <div class="photo photo--card" data-label="PHOTO: Village eye camp under a tent"></div>
-            <div class="card__body">
-              <span class="tag">Flagship</span>
-              <h3>Village Eye Camps</h3>
-              <p>Full-day screening camps in remote villages with doctors, optometrists and medicines.</p>
-              <dl class="card__meta"><div><dt>Cost / camp</dt><dd>₹<span class="ph">XX,XXX</span></dd></div><div><dt>Reach</dt><dd><span class="ph">300</span> people</dd></div></dl>
-            </div>
-          </article>
-          <article class="card">
-            <div class="photo photo--card" data-label="PHOTO: Patient with eye patch after surgery"></div>
-            <div class="card__body">
-              <span class="tag">High impact</span>
-              <h3>Free Cataract Surgery</h3>
-              <p>Sight-restoring surgery including transport, IOL lens, stay, food and follow-up.</p>
-              <dl class="card__meta"><div><dt>Cost / surgery</dt><dd>₹<span class="ph">X,XXX</span></dd></div><div><dt>Outcome</dt><dd>Sight restored</dd></div></dl>
-            </div>
-          </article>
-          <article class="card">
-            <div class="photo photo--card" data-label="PHOTO: Children at school eye test"></div>
-            <div class="card__body">
-              <span class="tag">Education</span>
-              <h3>School Vision Program</h3>
-              <p>Screening in government schools and free spectacles so no child falls behind.</p>
-              <dl class="card__meta"><div><dt>Cost / school</dt><dd>₹<span class="ph">XX,XXX</span></dd></div><div><dt>Reach</dt><dd><span class="ph">500</span> students</dd></div></dl>
-            </div>
-          </article>
-          <article class="card">
-            <div class="photo photo--card" data-label="PHOTO: Elderly woman receiving spectacles"></div>
-            <div class="card__body">
-              <span class="tag">Livelihood</span>
-              <h3>Free Spectacles</h3>
-              <p>Reading and distance glasses that help farmers, weavers and elders keep working.</p>
-              <dl class="card__meta"><div><dt>Cost / pair</dt><dd>₹<span class="ph">XXX</span></dd></div><div><dt>Outcome</dt><dd>Work &amp; dignity</dd></div></dl>
-            </div>
-          </article>
-          <article class="card">
-            <div class="photo photo--card" data-label="PHOTO: Retina screening with portable camera"></div>
-            <div class="card__body">
-              <span class="tag">Prevention</span>
-              <h3>Diabetic Eye Screening</h3>
-              <p>Early detection of diabetic retinopathy and glaucoma to prevent irreversible blindness.</p>
-              <dl class="card__meta"><div><dt>Cost / person</dt><dd>₹<span class="ph">XXX</span></dd></div><div><dt>Outcome</dt><dd>Blindness prevented</dd></div></dl>
-            </div>
-          </article>
-          <article class="card card--new">
-            <div class="photo photo--card" data-label="ILLUSTRATION: Branded mobile eye van"></div>
-            <div class="card__body">
-              <span class="tag tag--accent">Seeking partner</span>
-              <h3>Mobile Eye Van</h3>
-              <p>A fully equipped van that reaches villages with no road access to care, with naming rights for the CSR partner.</p>
-              <dl class="card__meta"><div><dt>Project cost</dt><dd>₹<span class="ph">XX</span> lakh</dd></div><div><dt>Reach / yr</dt><dd><span class="ph">20,000</span></dd></div></dl>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- 8. WHERE WE WORK -->
-    <section class="section reach" id="reach" data-section="8 · Where we work – shows rural footprint">
-      <div class="container split split--reverse">
-        <div class="map" data-label="MAP: Districts & villages served (Jharkhand / Bihar border)">
-          <svg viewBox="0 0 400 320" aria-hidden="true">
-            <path d="M40 60 L150 30 L270 50 L360 110 L340 220 L250 290 L120 280 L50 200 Z" fill="#e6f2e4" stroke="#055e26" stroke-width="2"/>
-            <g fill="#fb8706" stroke="#fff" stroke-width="2">
-              <circle cx="190" cy="150" r="11"/>
-              <circle cx="120" cy="110" r="6"/><circle cx="250" cy="100" r="6"/><circle cx="280" cy="190" r="6"/>
-              <circle cx="150" cy="220" r="6"/><circle cx="90" cy="180" r="6"/><circle cx="220" cy="240" r="6"/>
-              <circle cx="310" cy="140" r="6"/><circle cx="170" cy="80" r="6"/>
-            </g>
-            <text x="190" y="180" text-anchor="middle" font-size="13" font-weight="700" fill="#0055a0">Chouparan</text>
-          </svg>
-        </div>
+    <!-- ============ MESSAGE ============ -->
+    <section class="section message">
+      <div class="container message__inner reveal">
+        <img class="message__photo" src="assets/img/founder.jpg" alt="Md. Imran Khan, Secretary and Trustee" loading="lazy" />
         <div>
-          <p class="eyebrow">Our Reach</p>
-          <h2>Rooted in the villages of Jharkhand &amp; Bihar</h2>
-          <p>Based in Chouparan (Hazaribagh), we serve tribal and rural communities across the Jharkhand–Bihar border, where eye-care access is among the lowest in the country.</p>
-          <div class="districts">
-            <span>Hazaribagh</span><span>Chatra</span><span>Koderma</span><span>Giridih</span><span>Gaya</span><span>Aurangabad</span><span class="ph">+ more</span>
-          </div>
-          <p class="muted">Districts shown are placeholders. Confirm from camp records. An aspirational-district focus is a strong CSR selling point.</p>
+          <p class="eyebrow">From the Secretary's Desk</p>
+          <h2>Treatment is a pathway back to independence and dignity.</h2>
+          <p>In rural Jharkhand, losing sight often means losing work, income and a place in the family. In his message in our Annual Report 2025–26, Md. Imran Khan explains how camps, free spectacles, free medicines and awareness drives are meant to give that independence back.</p>
+          <p>Outreach today runs not only through village heads but through ordinary villagers and successful patients themselves. The ambition is to become a model eye-care institution for the region.</p>
+          <p class="message__sign"><strong>Md. Imran Khan</strong><span>Secretary &amp; Trustee, Afroj Charitable Trust</span></p>
         </div>
       </div>
     </section>
 
-    <!-- 9. CSR PARTNERSHIP -->
-    <section class="section csr" id="csr" data-section="9 · CSR partnership – the core conversion section">
+    <!-- ============ HOW WE WORK ============ -->
+    <section class="section model">
       <div class="container">
-        <div class="section__head section__head--light">
-          <p class="eyebrow">For CSR Partners</p>
-          <h2>A compliant, measurable and visible CSR investment</h2>
-          <p>We make it easy for your CSR committee to approve, track and report.</p>
+        <div class="section__head reveal">
+          <p class="eyebrow">How We Work</p>
+          <h2>From the village to vision — and back to the village</h2>
+          <p>Our community-to-care pathway closes the full loop, so every rupee turns into a measurable outcome.</p>
+        </div>
+        <ol class="steps steps--six">
+          <li class="step reveal"><span class="step__num">01</span><span class="step__icon">📍</span><h3>Identify</h3><p>Volunteers, village camps and school screenings find people who would never come to a hospital on their own.</p></li>
+          <li class="step reveal"><span class="step__num">02</span><span class="step__icon">🔍</span><h3>Screen</h3><p>Free eye check-ups in the village detect cataract and other conditions that need treatment.</p></li>
+          <li class="step reveal"><span class="step__num">03</span><span class="step__icon">💬</span><h3>Counsel</h3><p>Patients and families are counselled to overcome the fear of surgery, and transport to the hospital is arranged.</p></li>
+          <li class="step reveal"><span class="step__num">04</span><span class="step__icon">🏥</span><h3>Treat</h3><p>Free cataract surgery with a lens implant at Dristy Eye Hospital, along with medicines and spectacles.</p></li>
+          <li class="step reveal"><span class="step__num">05</span><span class="step__icon">👓</span><h3>Follow up</h3><p>Post-operative check-ups make sure sight is not just restored, but stays restored.</p></li>
+          <li class="step reveal"><span class="step__num">06</span><span class="step__icon">🤝</span><h3>Reconnect</h3><p>Successful patients and volunteers bring in the next unreached person — and every patient plants a tree.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ OUR WORK ============ -->
+    <section class="section work" id="work">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Our Work</p>
+          <h2>Programmes that change lives on the ground</h2>
+          <p>Each programme is running today, has a track record, and can be scaled with CSR support.</p>
+        </div>
+
+        <div class="programs">
+          <article class="program program--featured reveal">
+            <div class="program__img"><img src="assets/img/care-1.jpg" alt="Free cataract surgery patients" loading="lazy" /><span class="program__since">Core programme</span></div>
+            <div class="program__body">
+              <span class="tag tag--health">Health · Schedule VII (i)</span>
+              <h3>Free Cataract Surgery</h3>
+              <p>Cataract is the leading cause of avoidable blindness. We perform free sight-restoring surgeries for poor patients — modern SICS or PHACO with a lens implant — including transport, medicines and follow-up.</p>
+              <div class="program__metric"><strong>6,254</strong><span>free surgeries in 2025–26 · goal 10,000 a year</span></div>
+            </div>
+          </article>
+
+          <article class="program reveal">
+            <div class="program__img"><img src="assets/img/school-1.jpg" alt="Eye screening in a village school" loading="lazy" /><span class="program__since">Since 2015</span></div>
+            <div class="program__body">
+              <span class="tag tag--edu">Education · Schedule VII (ii)</span>
+              <h3>School Eye Screening</h3>
+              <p>Free eye check-ups and spectacles in rural and urban schools, so no child falls behind because they cannot see the blackboard.</p>
+              <div class="program__metric"><strong>50,000+</strong><span>students screened</span></div>
+            </div>
+          </article>
+
+          <article class="program reveal">
+            <div class="program__img"><img src="assets/img/camp-1.jpg" alt="Doorstep eye camp for elderly villagers" loading="lazy" /><span class="program__since">Since 2013</span></div>
+            <div class="program__body">
+              <span class="tag tag--rural">Rural Development · Schedule VII (x)</span>
+              <h3>Doorstep Care Camps</h3>
+              <p>Eye check-ups at the homes of senior citizens and differently-abled people who cannot travel, with free lenses and referral for surgery.</p>
+              <div class="program__metric"><strong>15,000+</strong><span>people · 50+ villages</span></div>
+            </div>
+          </article>
+
+          <article class="program reveal">
+            <div class="program__img"><img src="assets/img/tree-1.jpg" alt="Patients planting trees under One Eye One Tree" loading="lazy" /><span class="program__since">Since 2017</span></div>
+            <div class="program__body">
+              <span class="tag tag--env">Environment · Schedule VII (iv)</span>
+              <h3>One Eye One Tree</h3>
+              <p>Every successful cataract surgery is celebrated by planting a tree — creating a living, growing record of restored sight.</p>
+              <div class="program__metric"><strong>10,000+</strong><span>trees planted</span></div>
+            </div>
+          </article>
+
+          <article class="program reveal">
+            <div class="program__img"><img src="assets/img/blanket-1.jpg" alt="Blanket distribution during winter" loading="lazy" /><span class="program__since">Since 2019</span></div>
+            <div class="program__body">
+              <span class="tag tag--rural">Poverty Relief · Schedule VII (i)</span>
+              <h3>Blanket of Light Mission</h3>
+              <p>Warm blankets for patients and poor families during harsh Jharkhand winters — care that goes beyond the eyes.</p>
+              <div class="program__metric"><strong>10,000+</strong><span>people kept warm</span></div>
+            </div>
+          </article>
+
+          <article class="program reveal">
+            <div class="program__img"><img src="assets/img/env-1.jpg" alt="Save Environment, Save Eyesight awareness drive" loading="lazy" /><span class="program__since">Since 2018</span></div>
+            <div class="program__body">
+              <span class="tag tag--env">Environment · Schedule VII (iv)</span>
+              <h3>Save Environment, Save Eyesight</h3>
+              <p>Tree-planting drives and awareness on how pollution and deforestation harm eye health, with schools and communities.</p>
+              <div class="program__metric"><strong>100+</strong><span>drives · 20,000+ people</span></div>
+            </div>
+          </article>
+        </div>
+
+        <div class="beyond reveal">
+          <h3>Beyond eye care</h3>
+          <div class="beyond__grid">
+            <div class="beyond__item"><span>👩‍🏫</span><div><strong>Women &amp; livelihoods</strong><p>Vocational training and jobs for women and rural youth.</p></div></div>
+            <div class="beyond__item"><span>🥗</span><div><strong>Nutrition &amp; health</strong><p>Health check-ups and nutrition awareness for deprived families.</p></div></div>
+            <div class="beyond__item"><span>⚖️</span><div><strong>Free legal aid</strong><p>Advice and assistance for the disabled and underprivileged.</p></div></div>
+            <div class="beyond__item"><span>💊</span><div><strong>Health camps &amp; free medicines</strong><p>General health check-up camps and drug distribution for poor families.</p></div></div>
+            <div class="beyond__item"><span>🧘</span><div><strong>Yoga &amp; road safety</strong><p>Community awareness on yoga, healthy living and road safety.</p></div></div>
+            <div class="beyond__item"><span>📚</span><div><strong>Literacy &amp; skills</strong><p>Literacy and skill-development activities for rural youth.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HOSPITAL & QUALITY ============ -->
+    <section class="section hospital" id="hospital">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Dristy Eye Hospital</p>
+          <h2>Free care, at a standard you would want for your own family</h2>
+          <p>The trust's own hospital at Tajpur, Chouparan follows standardised clinical protocols and infection-prevention practices aligned with government and WHO norms.</p>
+        </div>
+
+        <div class="quality">
+          <div class="quality__item reveal"><p class="quality__num"><span data-count="98">98</span>%</p><p class="quality__label">Cataract surgeries with a lens implant (IOL)</p></div>
+          <div class="quality__item reveal"><p class="quality__num"><span data-count="100">100</span>%</p><p class="quality__label">Modern SICS or PHACO technique</p></div>
+          <div class="quality__item reveal"><p class="quality__num">0.5%</p><p class="quality__label">Posterior capsule rupture rate</p></div>
+          <div class="quality__item reveal"><p class="quality__num">~0.01%</p><p class="quality__label">Post-operative infection rate</p></div>
+        </div>
+        <p class="impact__note">Clinical quality indicators, Annual Report 2025–26.</p>
+
+        <div class="hospital__grid">
+          <div class="hospital__card reveal reveal--left">
+            <h3>Services</h3>
+            <ul class="chips">
+              <li>PHACO with foldable IOL</li>
+              <li>Nd:YAG laser for PCO</li>
+              <li>Glaucoma care</li>
+              <li>Squint care</li>
+              <li>Vitreo-retina</li>
+              <li>Uvea clinic</li>
+              <li>Ultrasound B-scan</li>
+              <li>Indirect ophthalmoscopy</li>
+              <li>DCR / DCT surgery</li>
+              <li>Removal of glasses</li>
+              <li>Refraction &amp; contact lenses</li>
+              <li>Eye exercise</li>
+            </ul>
+            <p class="hospital__extra">Also: in-patient wards, optical shop, ambulance, and a vision centre in Koderma.</p>
+          </div>
+          <div class="hospital__card reveal reveal--right">
+            <h3>Medical team</h3>
+            <ul class="team">
+              <li><span class="team__av">SM</span><div><strong>Dr. Sajid Murtuza</strong><span>MBBS, MS · Full-time surgeon</span></div></li>
+              <li><span class="team__av">SK</span><div><strong>Dr. Sudhanshu Kumar</strong><span>MBBS, MS · Visiting surgeon</span></div></li>
+              <li><span class="team__av">RK</span><div><strong>Dr. Ranjan Kumar</strong><span>MBBS, MS · Visiting surgeon</span></div></li>
+              <li><span class="team__av">SM</span><div><strong>Dr. Subrata Mukharjee</strong><span>MBBS, MS · Visiting surgeon</span></div></li>
+              <li><span class="team__av">DK</span><div><strong>Dr. Deepak Kumar</strong><span>MBBS, MS · Visiting surgeon</span></div></li>
+              <li><span class="team__av">JI</span><div><strong>Dr. Jawed Iqbal</strong><span>MBBS, MS · Visiting surgeon</span></div></li>
+            </ul>
+            <p class="hospital__extra">A young team of local staff, mostly aged 21–30 — supported by the planned DEH Learning Centre.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CSR ALIGNMENT ============ -->
+    <section class="section align">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">For CSR Committees</p>
+          <h2>Ready-made alignment with Schedule VII and the SDGs</h2>
+          <p>Choose a programme that fits your CSR policy. We provide the mapping, budgets and reports your board needs.</p>
+        </div>
+        <div class="table-wrap reveal">
+          <table class="align__table">
+            <thead>
+              <tr><th>Programme</th><th>Schedule VII (Companies Act, 2013)</th><th>SDG</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Free Cataract Surgery</td><td>(i) Promoting health care, including preventive health care</td><td><span class="sdg sdg--3">3</span> Good Health</td></tr>
+              <tr><td>School Eye Screening</td><td>(ii) Promoting education</td><td><span class="sdg sdg--4">4</span> Quality Education</td></tr>
+              <tr><td>Doorstep Care Camps</td><td>(i) Health care · (x) Rural development projects</td><td><span class="sdg sdg--3">3</span> Good Health · <span class="sdg sdg--10">10</span> Reduced Inequality</td></tr>
+              <tr><td>Women &amp; livelihoods</td><td>(ii) Vocational skills · (iii) Empowering women</td><td><span class="sdg sdg--5">5</span> Gender Equality · <span class="sdg sdg--8">8</span> Decent Work</td></tr>
+              <tr><td>One Eye One Tree · Save Environment</td><td>(iv) Environmental sustainability &amp; ecological balance</td><td><span class="sdg sdg--13">13</span> Climate Action · <span class="sdg sdg--15">15</span> Life on Land</td></tr>
+              <tr><td>Blanket of Light Mission</td><td>(i) Eradicating hunger, poverty &amp; malnutrition</td><td><span class="sdg sdg--1">1</span> No Poverty</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHERE WE WORK ============ -->
+    <section class="section reach">
+      <div class="container split split--reverse">
+        <div class="reveal reveal--left">
+          <p class="eyebrow">Where We Work</p>
+          <h2>Rooted in the villages of north Jharkhand</h2>
+          <p>We work across Hazaribagh, Chatra and Koderma — districts with large tribal and rural populations, where an eye surgeon can be a full day's journey away.</p>
+          <div class="centres">
+            <div class="centre"><span class="centre__pin">●</span><div><strong>Dristy Eye Hospital, Chouparan</strong><p>Main hospital · Hazaribagh district</p></div></div>
+            <div class="centre"><span class="centre__pin">●</span><div><strong>Vision Centre, Chatra</strong><p>Bypass Road, Chatra</p></div></div>
+            <div class="centre"><span class="centre__pin">●</span><div><strong>Vision Centre, Koderma</strong><p>Bypass Road, Singhpur, Koderma</p></div></div>
+            <div class="centre"><span class="centre__pin centre__pin--camp">●</span><div><strong>50+ villages</strong><p>Covered through doorstep and village camps</p></div></div>
+          </div>
+        </div>
+        <div class="map reveal reveal--right">
+          <svg viewBox="0 0 420 340" role="img" aria-label="Map of districts served">
+            <defs>
+              <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e2f1df" /><stop offset="1" stop-color="#dceafa" /></linearGradient>
+            </defs>
+            <path d="M40 90 L120 40 L210 55 L300 40 L380 95 L360 190 L300 270 L190 300 L90 270 L45 190 Z" fill="url(#g1)" stroke="#055e26" stroke-width="2" />
+            <path d="M120 40 L150 170 L90 270" fill="none" stroke="#055e26" stroke-dasharray="5 5" stroke-width="1.4" opacity=".55" />
+            <path d="M210 55 L230 170 L300 270" fill="none" stroke="#055e26" stroke-dasharray="5 5" stroke-width="1.4" opacity=".55" />
+            <text x="80" y="150" class="map__district">Chatra</text>
+            <text x="250" y="120" class="map__district">Koderma</text>
+            <text x="160" y="240" class="map__district">Hazaribagh</text>
+            <g class="map__dots">
+              <circle cx="70" cy="200" r="5" /><circle cx="110" cy="110" r="5" /><circle cx="140" cy="80" r="5" />
+              <circle cx="270" cy="80" r="5" /><circle cx="330" cy="130" r="5" /><circle cx="300" cy="200" r="5" />
+              <circle cx="120" cy="250" r="5" /><circle cx="230" cy="270" r="5" /><circle cx="180" cy="130" r="5" />
+              <circle cx="260" cy="230" r="5" /><circle cx="90" cy="160" r="5" /><circle cx="340" cy="170" r="5" />
+            </g>
+            <g class="map__centres">
+              <circle class="map__pulse" cx="200" cy="200" r="14" /><circle cx="200" cy="200" r="9" />
+              <circle class="map__pulse" cx="100" cy="125" r="12" /><circle cx="100" cy="125" r="7" />
+              <circle class="map__pulse" cx="290" cy="150" r="12" /><circle cx="290" cy="150" r="7" />
+            </g>
+            <text x="200" y="228" text-anchor="middle" class="map__label">Chouparan</text>
+          </svg>
+          <div class="map__legend"><span><i class="lg-centre"></i>Eye care centres</span><span><i class="lg-camp"></i>Camp villages</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STORIES ============ -->
+    <section class="section stories" id="stories">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Stories of Change</p>
+          <h2>Real people. Real villages. Restored lives.</h2>
+        </div>
+        <article class="feature-story reveal">
+          <img src="assets/img/care-3.jpg" alt="Cataract surgery in progress at Dristy Eye Hospital" loading="lazy" />
+          <div class="feature-story__body">
+            <span class="tag tag--health">Featured in Annual Report 2025–26</span>
+            <h3>Kabilash Devi: from rejected to independent</h3>
+            <p>Kabilash Devi's eyesight had failed so badly that she could no longer look after herself, and her own family had turned away from her. A screening camp in her village brought her to Dristy Eye Hospital, where free cataract surgery restored her sight.</p>
+            <p>Today she lives with independence and dignity again — proof that treatment is not only about the eyes, but about giving a person their life back.</p>
+          </div>
+        </article>
+        <div class="story-grid">
+          <figure class="story reveal">
+            <blockquote>“Being 78 and unable to travel, I thought my failing vision would never be addressed. They came to my village, and now I can see my grandchildren play again. It feels like a new life!”</blockquote>
+            <figcaption><img src="assets/img/story-rajeshwari.jpg" alt="" loading="lazy" /><div><strong>Rajeshwari Devi, 78</strong><span>Doorstep Care Camp</span></div></figcaption>
+          </figure>
+          <figure class="story reveal">
+            <blockquote>“Before the camp, I had trouble reading the blackboard, which made studying hard. Now I have clear vision and confidence in my studies.”</blockquote>
+            <figcaption><img src="assets/img/story-pooja.jpg" alt="" loading="lazy" /><div><strong>Pooja</strong><span>School Eye Screening</span></div></figcaption>
+          </figure>
+          <figure class="story reveal">
+            <blockquote>“Regaining my sight not only changed my life but allowed me to plant a tree that now shades my farm.”</blockquote>
+            <figcaption><img src="assets/img/story-ramesh.jpg" alt="" loading="lazy" /><div><strong>Ramesh</strong><span>Cataract patient · One Eye One Tree</span></div></figcaption>
+          </figure>
+          <figure class="story reveal">
+            <blockquote>“As someone with a physical disability, getting to a hospital was impossible. This doorstep camp gave me hope and restored my vision without the stress of travel.”</blockquote>
+            <figcaption><img src="assets/img/story-amit.jpg" alt="" loading="lazy" /><div><strong>Amit Kumar</strong><span>Doorstep Care Camp</span></div></figcaption>
+          </figure>
+          <figure class="story reveal">
+            <blockquote>“The blanket I received not only kept my family warm during the coldest nights but also reminded me of their genuine care.”</blockquote>
+            <figcaption><img src="assets/img/story-asha.jpg" alt="" loading="lazy" /><div><strong>Asha Devi</strong><span>Blanket of Light Mission</span></div></figcaption>
+          </figure>
+          <figure class="story reveal">
+            <blockquote>“This tree will outlive me and provide for my grandchildren — a gift of sight and nature.”</blockquote>
+            <figcaption><img src="assets/img/story-rekha.jpg" alt="" loading="lazy" /><div><strong>Rekha Devi</strong><span>Cataract patient · One Eye One Tree</span></div></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="field">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">From the Field</p>
+          <h2>Our work, as it happens</h2>
+        </div>
+      </div>
+      <div class="field__track" aria-label="Photo gallery">
+        <div class="field__row">
+          <img src="assets/img/tree-2.jpg" alt="Tree plantation with patients" loading="lazy" />
+          <img src="assets/img/camp-2.jpg" alt="Village eye camp" loading="lazy" />
+          <img src="assets/img/blanket-2.jpg" alt="Blanket distribution" loading="lazy" />
+          <img src="assets/img/school-2.jpg" alt="School eye screening" loading="lazy" />
+          <img src="assets/img/care-3.jpg" alt="Patient care" loading="lazy" />
+          <img src="assets/img/env-2.jpg" alt="Environment awareness drive" loading="lazy" />
+          <img src="assets/img/tree-3.jpg" alt="Planting a tree after surgery" loading="lazy" />
+          <img src="assets/img/blanket-3.jpg" alt="Winter relief" loading="lazy" />
+          <img src="assets/img/camp-3.jpg" alt="Doorstep eye check-up" loading="lazy" />
+          <img src="assets/img/care-4.jpg" alt="Hospital care" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CSR PARTNERSHIP ============ -->
+    <section class="section csr" id="csr">
+      <div class="container">
+        <div class="section__head section__head--light reveal">
+          <p class="eyebrow">Partner With Us</p>
+          <h2>Make your CSR count where it matters most</h2>
+          <p>Fund a proven programme with a clear cost per beneficiary, complete transparency and on-ground impact you can see for yourself.</p>
+        </div>
+
+        <div class="gap reveal">
+          <div class="gap__text">
+            <h3>Help us close the gap</h3>
+            <p>In 2025–26 we gave free cataract surgery to 6,254 people. Our goal is 10,000 every year — the remaining 3,746 people are still waiting for someone to fund their surgery.</p>
+          </div>
+          <div class="gap__meter">
+            <div class="gap__labels"><span><strong>6,254</strong> done</span><span>Goal <strong>10,000</strong></span></div>
+            <div class="gap__bar" role="progressbar" aria-valuemin="0" aria-valuemax="10000" aria-valuenow="6254" aria-label="Free cataract surgeries in 2025–26 against the yearly goal"><span style="--w: 62.5%"></span></div>
+            <p class="gap__note">63% of the yearly goal reached</p>
+          </div>
         </div>
 
         <div class="why">
-          <div class="why__item"><span>📜</span><h3>Fully compliant</h3><p>CSR-1 registered, 12A &amp; 80G. Eligible under Schedule VII (i): promoting healthcare.</p></div>
-          <div class="why__item"><span>📊</span><h3>Measurable outcomes</h3><p>Patient-level data, before/after vision records and quarterly dashboards.</p></div>
-          <div class="why__item"><span>🧾</span><h3>Clean reporting</h3><p>Utilisation certificates, CA-audited accounts and impact reports for your Board.</p></div>
-          <div class="why__item"><span>📍</span><h3>Aspirational districts</h3><p>Work in under-served rural &amp; tribal regions, aligned with national priorities.</p></div>
-          <div class="why__item"><span>🤝</span><h3>Employee volunteering</h3><p>Your teams can join camps and see the impact first-hand.</p></div>
-          <div class="why__item"><span>📣</span><h3>Brand visibility</h3><p>Co-branded camps, van branding, media coverage and impact stories.</p></div>
+          <div class="why__item reveal"><span>🏥</span><h3>Own hospital, end-to-end</h3><p>Funds go to surgeries in our own facility — not to middlemen. Every patient is tracked from camp to follow-up.</p></div>
+          <div class="why__item reveal"><span>📊</span><h3>Measurable outcomes</h3><p>Patient-level records, before/after vision data, photos and quarterly progress reports.</p></div>
+          <div class="why__item reveal"><span>🤝</span><h3>Government-trusted</h3><p>Supported by the District Blindness Control Society (NPCBVI) and empanelled under Ayushman Bharat.</p></div>
+          <div class="why__item reveal"><span>📍</span><h3>Under-served districts</h3><p>Deep rural and tribal reach in Hazaribagh, Chatra and Koderma — where help is needed most.</p></div>
+          <div class="why__item reveal"><span>🙋</span><h3>Employee volunteering</h3><p>Your teams can join camps, school screenings and tree drives on the ground.</p></div>
+          <div class="why__item reveal"><span>📣</span><h3>Visibility &amp; recognition</h3><p>Co-branded camps, impact stories and media coverage for your brand.</p></div>
         </div>
 
-        <h3 class="subhead">Ways to partner</h3>
-        <div class="tiers">
-          <div class="tier">
-            <h4>Sponsor a Camp</h4>
-            <p class="tier__price">₹<span class="ph">X</span> lakh</p>
-            <ul><li>1 village camp</li><li>~300 screenings</li><li>Camp report &amp; photos</li></ul>
-            <a href="#contact" class="btn btn--outline">Enquire</a>
-          </div>
-          <div class="tier tier--featured">
-            <span class="tier__ribbon">Most chosen</span>
+        <h3 class="subhead reveal">Ways to partner</h3>
+        <div class="tiers tiers--six">
+          <div class="tier tier--featured reveal">
+            <span class="tier__ribbon">Highest impact</span>
+            <span class="tier__icon">👁️</span>
             <h4>Restore 100 Sights</h4>
             <p class="tier__price">₹<span class="ph">X</span> lakh</p>
-            <ul><li>100 cataract surgeries</li><li>Transport, stay &amp; follow-up</li><li>Patient-level outcome report</li><li>Co-branding</li></ul>
+            <ul><li>100 free cataract surgeries</li><li>Transport, medicines &amp; follow-up</li><li>A tree planted for every patient</li><li>Patient-level outcome report</li></ul>
             <a href="#contact" class="btn btn--primary">Enquire</a>
           </div>
-          <div class="tier">
-            <h4>Adopt a Block</h4>
-            <p class="tier__price">₹<span class="ph">XX</span> lakh / yr</p>
-            <ul><li>Every village in a block covered</li><li>Camps + surgeries + schools</li><li>Baseline &amp; endline survey</li></ul>
+          <div class="tier reveal">
+            <span class="tier__icon">⛺</span>
+            <h4>Sponsor Village Screening Camps</h4>
+            <p class="tier__price">₹<span class="ph">X</span> lakh</p>
+            <ul><li>Screening camps in unreached villages</li><li>Patient transport &amp; referral</li><li>Free spectacles</li></ul>
             <a href="#contact" class="btn btn--outline">Enquire</a>
           </div>
-          <div class="tier">
-            <h4>Mobile Eye Van</h4>
+          <div class="tier reveal">
+            <span class="tier__icon">🎒</span>
+            <h4>Sponsor a School Drive</h4>
+            <p class="tier__price">₹<span class="ph">X</span> lakh</p>
+            <ul><li>Screening for a cluster of schools</li><li>Free spectacles for every child in need</li><li>School-wise report</li></ul>
+            <a href="#contact" class="btn btn--outline">Enquire</a>
+          </div>
+          <div class="tier reveal">
+            <span class="tier__icon">🔬</span>
+            <h4>Equip the Hospital</h4>
             <p class="tier__price">₹<span class="ph">XX</span> lakh</p>
-            <ul><li>Naming rights</li><li>Multi-year impact</li><li>Live GPS &amp; camp tracking</li></ul>
+            <ul><li>Surgical equipment &amp; infrastructure</li><li>Medicines &amp; consumables</li><li>Equipment-wise utilisation report</li></ul>
+            <a href="#contact" class="btn btn--outline">Enquire</a>
+          </div>
+          <div class="tier reveal">
+            <span class="tier__icon">🎓</span>
+            <h4>Build the DEH Learning Centre</h4>
+            <p class="tier__price">₹<span class="ph">XX</span> lakh</p>
+            <ul><li>Train local youth as eye-care staff</li><li>Skills, jobs and quality care</li><li>Training &amp; placement report</li></ul>
+            <a href="#contact" class="btn btn--outline">Enquire</a>
+          </div>
+          <div class="tier reveal">
+            <span class="tier__icon">🌳</span>
+            <h4>Green &amp; Warm Drive</h4>
+            <p class="tier__price">₹<span class="ph">X</span> lakh</p>
+            <ul><li>Tree plantation drive</li><li>Winter blanket distribution</li><li>Employee volunteering day</li></ul>
             <a href="#contact" class="btn btn--outline">Enquire</a>
           </div>
         </div>
 
-        <h3 class="subhead">How a partnership works</h3>
-        <ol class="process">
-          <li><strong>Connect</strong><span>Intro call &amp; site visit</span></li>
-          <li><strong>Proposal</strong><span>Custom project, budget &amp; KPIs</span></li>
-          <li><strong>MoU</strong><span>Due diligence &amp; agreement</span></li>
+        <h3 class="subhead reveal">How a partnership works</h3>
+        <ol class="process reveal">
+          <li><strong>Connect</strong><span>Intro call &amp; field visit</span></li>
+          <li><strong>Propose</strong><span>Project, budget &amp; KPIs</span></li>
+          <li><strong>Agree</strong><span>Due diligence &amp; MoU</span></li>
           <li><strong>Implement</strong><span>Camps, surgeries, monitoring</span></li>
           <li><strong>Report</strong><span>Utilisation certificate &amp; impact report</span></li>
         </ol>
 
-        <div class="proposal" id="proposal">
+        <h3 class="subhead reveal">Our 2026–2030 roadmap</h3>
+        <ul class="roadmap reveal">
+          <li><span>👁️</span>Free cataract care at scale</li>
+          <li><span>📍</span>Deeper village outreach</li>
+          <li><span>✅</span>Clinical quality</li>
+          <li><span>🎓</span>People &amp; training</li>
+          <li><span>🏗️</span>Infrastructure</li>
+          <li><span>🤝</span>Partnerships</li>
+          <li><span>📊</span>Data &amp; reporting</li>
+        </ul>
+
+        <div class="proposal reveal" id="proposal">
           <div>
-            <h3>Download our CSR Proposal Kit</h3>
-            <p>Project brief, budgets, registration certificates and the last annual report, in one PDF for your CSR committee.</p>
+            <h3>Get our CSR Proposal Kit</h3>
+            <p>Programme brief, budgets, registration certificates and latest annual report — in one PDF for your CSR committee.</p>
           </div>
-          <a href="#" class="btn btn--accent btn--lg">⬇ Download PDF (2 MB)</a>
+          <a href="#contact" class="btn btn--accent btn--lg">Request Proposal</a>
         </div>
       </div>
     </section>
 
-    <!-- 10. TRANSPARENCY -->
-    <section class="section transparency" id="transparency" data-section="10 · Transparency & compliance – due-diligence documents">
+    <!-- ============ PARTNERS ============ -->
+    <section class="partners">
       <div class="container">
-        <div class="section__head">
-          <p class="eyebrow">Transparency</p>
+        <p class="eyebrow center reveal">Partners &amp; Supporters</p>
+        <div class="logos reveal">
+          <div class="logo-card"><strong>DBCS · NPCBVI</strong><span>District Blindness Control Society</span></div>
+          <div class="logo-card"><strong>Ayushman Bharat</strong><span>Empanelled hospital</span></div>
+          <div class="logo-card"><strong>Dristy Eye Hospital</strong><span>Clinical unit of the trust</span></div>
+          <div class="logo-card logo-card--cta"><strong>Your Company</strong><span>Become a CSR partner</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRANSPARENCY ============ -->
+    <section class="section transparency" id="transparency">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Transparency &amp; Governance</p>
           <h2>Every rupee accounted for</h2>
-          <p>All statutory documents are public so your due-diligence team can verify us in minutes.</p>
+          <p>We publish our statutory details so your due-diligence team can verify us quickly.</p>
         </div>
-        <div class="split split--top">
-          <div class="docs">
-            <a href="#" class="doc"><span class="doc__icon">PDF</span><div><strong>Trust Registration Deed</strong><small>Reg. No. <span class="ph">XXXX/20XX</span></small></div></a>
-            <a href="#" class="doc"><span class="doc__icon">PDF</span><div><strong>CSR-1 Registration (MCA)</strong><small><span class="ph">CSR000XXXXX</span></small></div></a>
-            <a href="#" class="doc"><span class="doc__icon">PDF</span><div><strong>12A Certificate</strong><small>Income Tax exemption</small></div></a>
-            <a href="#" class="doc"><span class="doc__icon">PDF</span><div><strong>80G Certificate</strong><small>50% tax benefit to donors</small></div></a>
-            <a href="#" class="doc"><span class="doc__icon">PDF</span><div><strong>PAN &amp; NGO Darpan</strong><small>NITI Aayog ID</small></div></a>
-            <a href="#" class="doc"><span class="doc__icon">PDF</span><div><strong>Audited Financials</strong><small>FY 2022-23 · 2023-24 · 2024-25</small></div></a>
-            <a href="#" class="doc"><span class="doc__icon">PDF</span><div><strong>Annual Reports</strong><small>Last 3 years</small></div></a>
-            <a href="#" class="doc"><span class="doc__icon">PDF</span><div><strong>FCRA</strong><small>If applicable</small></div></a>
+        <div class="gov">
+          <div class="gov__facts reveal reveal--left">
+            <h3>Registration details</h3>
+            <dl>
+              <div><dt>Legal name</dt><dd>Afroj Charitable Trust</dd></div>
+              <div><dt>Type</dt><dd>Public charitable trust</dd></div>
+              <div><dt>Registered under</dt><dd>Indian Trusts Act, 1882</dd></div>
+              <div><dt>Registration No.</dt><dd>10949/1310 · dated 03-10-2013</dd></div>
+              <div><dt>Registered office</dt><dd>Vill. Marheri, PO+PS Chouparan, Dist. Hazaribagh, Jharkhand – 825406</dd></div>
+              <div><dt>12A</dt><dd>AAFTA3488FE20219</dd></div>
+              <div><dt>80G</dt><dd>AAFTA3488FF20217</dd></div>
+              <div><dt>CSR-1 (MCA)</dt><dd>CSR00020786</dd></div>
+              <div><dt>NGO Darpan ID</dt><dd>JH/2019/0222766</dd></div>
+              <div><dt>Accounts</dt><dd>Audited every year by independent Chartered Accountants</dd></div>
+            </dl>
           </div>
-          <div class="utilisation">
-            <h3>How funds are used</h3>
-            <div class="donut" style="--a:85; --b:10;">
-              <div class="donut__center"><strong><span class="ph">85</span>%</strong><small>direct to programs</small></div>
+          <div class="gov__side">
+            <div class="funds reveal reveal--right">
+              <h3>How we use funds</h3>
+              <div class="funds__highlight"><strong>₹3.3 crore</strong><span>spent on charitable work in FY 2023–24 — over 90% of it directly on hospital and patient care (audited accounts)</span></div>
+              <ul>
+                <li><span>👁️</span>Free and subsidised treatment for the underprivileged — surgeries and follow-ups</li>
+                <li><span>💊</span>Health check-up camps, free medicines and awareness drives</li>
+                <li><span>👩</span>Training and jobs for women in healthcare and community work</li>
+                <li><span>🛠️</span>Skill development and employment in rural areas</li>
+              </ul>
             </div>
-            <ul class="legend">
-              <li><i class="c1"></i>Programs &amp; patient care – <span class="ph">85</span>%</li>
-              <li><i class="c2"></i>Outreach &amp; mobilisation – <span class="ph">10</span>%</li>
-              <li><i class="c3"></i>Administration – <span class="ph">5</span>%</li>
-            </ul>
+            <div class="docs reveal reveal--right">
+              <h3>Documents on request</h3>
+              <p>Trust deed · 12A &amp; 80G certificates · CSR-1 · PAN · Audited financials (FY 2021–22 to 2023–24) · Annual Report 2025–26</p>
+              <a href="#contact" class="link">Request documents →</a>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="gov__subhead reveal">Compliance &amp; approvals</h3>
+        <ul class="compliance reveal">
+          <li><span>🏥</span>Clinical establishment registration</li>
+          <li><span>♻️</span>Biomedical waste managed via a Pollution Control Board-registered agency</li>
+          <li><span>🧯</span>Fire safety approval</li>
+          <li><span>🤝</span>District Blindness Control Society (NPCBVI) support</li>
+          <li><span>🛡️</span>Ayushman Bharat empanelled</li>
+        </ul>
+
+        <div class="leaders">
+          <div class="leader reveal">
+            <img src="assets/img/founder.jpg" alt="Md Imran Khan" loading="lazy" />
+            <div>
+              <h3>Md Imran Khan</h3>
+              <p class="leader__role">Founder · Secretary &amp; Trustee</p>
+              <p>The visionary behind the trust and Dristy Eye Hospital, dedicated to making quality eye care affordable for every rural family. Under his leadership the hospital performed 6,254 free cataract surgeries in 2025–26 and is working towards 10,000 a year.</p>
+            </div>
+          </div>
+          <div class="leader reveal">
+            <div class="leader__avatar">NK</div>
+            <div>
+              <h3>Nasreen Farha Khan</h3>
+              <p class="leader__role">Trustee &amp; Director</p>
+              <p>Provides strategic guidance and shapes the policies and initiatives that drive the trust's mission of exceptional, compassionate care for the community.</p>
+            </div>
+          </div>
+        </div>
+        <p class="disclosure reveal">Dristy Eye Hospital is a unit of Afroj Charitable Trust. In 2025–26, 6,254 of its 6,724 surgeries (93%) were free of cost. Trust funds are used only for programme and patient care.</p>
+      </div>
+    </section>
+
+    <!-- ============ GET INVOLVED ============ -->
+    <section class="section involve" id="donate">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Get Involved</p>
+          <h2>Everyone can help someone see again</h2>
+        </div>
+        <div class="involve__grid">
+          <div class="involve__card reveal">
+            <span class="involve__icon">🏢</span>
+            <h3>Corporates &amp; Foundations</h3>
+            <p>Partner under CSR and fund a programme with full reporting.</p>
+            <a href="#csr" class="btn btn--primary">Partner with Us</a>
+          </div>
+          <div class="involve__card involve__card--donate reveal">
+            <span class="involve__icon">♥</span>
+            <h3>Individual Donors</h3>
+            <p>Every contribution helps fund a surgery, spectacles or a warm blanket.</p>
+            <p class="involve__tax">✓ Tax benefit under Section 80G</p>
+            <a href="https://razorpay.com/payment-button/pl_Qs6afCMOpSGgFo/view" target="_blank" rel="noopener" class="btn btn--accent">Donate Now</a>
+          </div>
+          <div class="involve__card reveal">
+            <span class="involve__icon">🙋</span>
+            <h3>Volunteer</h3>
+            <p>Join our village camps, school drives and tree plantations.</p>
+            <a href="#contact" class="btn btn--outline">Join Us</a>
+          </div>
+          <div class="involve__card reveal">
+            <span class="involve__icon">📢</span>
+            <h3>Spread the Word</h3>
+            <p>Tell someone who needs eye care about our free camps and hospital.</p>
+            <a href="https://wa.me/919006440240" target="_blank" rel="noopener" class="btn btn--outline">Share on WhatsApp</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 11. GOVERNANCE -->
-    <section class="section governance" data-section="11 · Governance – trustees & hospital relationship (transparency)">
-      <div class="container">
-        <div class="section__head">
-          <p class="eyebrow">Governance</p>
-          <h2>Led by people who live and work in the community</h2>
-        </div>
-        <div class="people">
-          <div class="person"><div class="avatar" data-label="Photo"></div><h3><span class="ph">Trustee Name</span></h3><p>Founder &amp; Managing Trustee</p></div>
-          <div class="person"><div class="avatar" data-label="Photo"></div><h3><span class="ph">Trustee Name</span></h3><p>Trustee – Medical</p></div>
-          <div class="person"><div class="avatar" data-label="Photo"></div><h3><span class="ph">Trustee Name</span></h3><p>Trustee – Finance</p></div>
-          <div class="person"><div class="avatar" data-label="Photo"></div><h3><span class="ph">Advisor Name</span></h3><p>Independent Advisor</p></div>
-        </div>
-        <div class="partner-hospital">
-          <div class="partner-hospital__logo">Dristy<br /><small>Eye Hospital</small></div>
-          <div>
-            <h3>Our clinical partner: Dristy Eye Hospital, Chouparan</h3>
-            <p>Surgeries under trust programs are performed at Dristy Eye Hospital, with modern equipment and experienced surgeons. All patients funded by the trust receive treatment <strong>free of cost</strong>. Trust funds are used only for patient care, as set out in our partnership agreement and audited every year.</p>
-            <a href="https://www.dristyeyehospital.com/" target="_blank" rel="noopener" class="link">Visit hospital website →</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 12. STORIES -->
-    <section class="section stories" data-section="12 · Beneficiary stories – emotional connect">
-      <div class="container">
-        <div class="section__head">
-          <p class="eyebrow">Stories of Sight</p>
-          <h2>Real people. Real villages. Restored lives.</h2>
-        </div>
-        <div class="story-grid">
-          <figure class="story">
-            <div class="photo photo--story" data-label="PHOTO / VIDEO: Beneficiary portrait"></div>
-            <blockquote>"For three years I could not see my grandchildren's faces. Now I can work in the fields again."</blockquote>
-            <figcaption><strong><span class="ph">Name</span>, 68</strong> · Farmer, <span class="ph">Village</span>, Hazaribagh</figcaption>
-          </figure>
-          <figure class="story">
-            <div class="photo photo--story" data-label="PHOTO / VIDEO: Student with new spectacles"></div>
-            <blockquote>"I used to sit at the back and could not read the board. With my glasses I came first in class."</blockquote>
-            <figcaption><strong><span class="ph">Name</span>, 12</strong> · Student, Govt. School, Chatra</figcaption>
-          </figure>
-          <figure class="story">
-            <div class="photo photo--story" data-label="PHOTO / VIDEO: Camp volunteer / ASHA worker"></div>
-            <blockquote>"Earlier no one from our village went for surgery. Now people come to the camp themselves."</blockquote>
-            <figcaption><strong><span class="ph">Name</span></strong> · ASHA Worker, <span class="ph">Block</span></figcaption>
-          </figure>
-        </div>
-        <p class="note center">* Sample quotes for layout. Replace with real, consented beneficiary stories.</p>
-      </div>
-    </section>
-
-    <!-- 13. PARTNERS -->
-    <section class="section partners" data-section="13 · Partners & supporters – social proof">
-      <div class="container">
-        <p class="eyebrow center">Supported by</p>
-        <div class="logos">
-          <div class="logo-ph">Govt. / NPCBVI</div>
-          <div class="logo-ph">District Health Society</div>
-          <div class="logo-ph">Partner NGO</div>
-          <div class="logo-ph">Corporate Partner</div>
-          <div class="logo-ph logo-ph--cta">Your Company Logo Here</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 14. CONTACT / CSR ENQUIRY -->
-    <section class="section contact" id="contact" data-section="14 · CSR enquiry form – lead capture">
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
       <div class="container split split--top">
-        <div>
+        <div class="reveal reveal--left">
           <p class="eyebrow">Let's Work Together</p>
-          <h2>Talk to our CSR team</h2>
-          <p>Share your focus area and budget. We'll send a tailored proposal within 48 hours.</p>
+          <h2>Talk to us about a partnership</h2>
+          <p>Tell us your focus area and budget. We will share a tailored proposal and invite you for a field visit.</p>
           <ul class="contact__list">
-            <li><span>📍</span><span class="ph">Trust address, Chouparan, Hazaribagh, Jharkhand – PIN</span></li>
-            <li><span>✉️</span>csr@afrojcharitabletrust.org</li>
-            <li><span>📞</span><span class="ph">+91 00000 00000</span></li>
-            <li><span>🕘</span>Mon–Sat, 10 AM – 6 PM</li>
+            <li><span>👤</span><div><strong>CSR contact</strong><p>Md. Imran Khan, Secretary &amp; Trustee</p></div></li>
+            <li><span>📞</span><div><strong>Phone</strong><p><a href="tel:+919771740140">+91 97717 40140</a></p></div></li>
+            <li><span>✉️</span><div><strong>Email</strong><p><a href="mailto:imranchouparan@gmail.com">imranchouparan@gmail.com</a></p></div></li>
+            <li><span>📍</span><div><strong>Registered office</strong><p>Vill. Marheri, PO+PS Chouparan, Dist. Hazaribagh, Jharkhand – 825406</p></div></li>
+            <li><span>🏥</span><div><strong>Dristy Eye Hospital</strong><p>Hospital Road, Tajpur, Chouparan, Hazaribagh, Jharkhand – 825406 · <a href="tel:+919006440240">+91 90064 40240</a></p></div></li>
           </ul>
-          <div class="donate" id="donate">
-            <h3>Individual donor?</h3>
-            <p>Sponsor one surgery for ₹<span class="ph">X,XXX</span> and get an 80G tax receipt.</p>
-            <a href="#" class="btn btn--accent">Donate Now</a>
-          </div>
         </div>
-        <form class="form" id="csrForm">
+        <form class="form reveal reveal--right" id="csrForm">
+          <h3>CSR / Partnership enquiry</h3>
           <div class="form__row">
-            <label>Full name<input type="text" required /></label>
-            <label>Company<input type="text" required /></label>
+            <label>Full name<input type="text" name="name" required /></label>
+            <label>Organisation<input type="text" name="org" required /></label>
           </div>
           <div class="form__row">
-            <label>Work email<input type="email" required /></label>
-            <label>Phone<input type="tel" /></label>
+            <label>Work email<input type="email" name="email" required /></label>
+            <label>Phone<input type="tel" name="phone" /></label>
           </div>
           <div class="form__row">
-            <label>Area of interest
-              <select>
-                <option>Cataract surgeries</option>
-                <option>Village eye camps</option>
-                <option>School vision program</option>
-                <option>Mobile eye van</option>
-                <option>Adopt a block</option>
+            <label>Programme of interest
+              <select name="programme">
+                <option>Cataract surgery sponsorship</option>
+                <option>Village screening camps</option>
+                <option>School Eye Screening</option>
+                <option>Hospital equipment &amp; medicines</option>
+                <option>DEH Learning Centre</option>
+                <option>One Eye One Tree</option>
+                <option>Blanket of Light Mission</option>
                 <option>Not sure – advise me</option>
               </select>
             </label>
             <label>Indicative budget
-              <select>
+              <select name="budget">
                 <option>Below ₹5 lakh</option>
                 <option>₹5 – 25 lakh</option>
                 <option>₹25 lakh – 1 crore</option>
@@ -473,40 +741,46 @@
               </select>
             </label>
           </div>
-          <label>Message<textarea rows="4"></textarea></label>
-          <button class="btn btn--primary btn--lg btn--block" type="submit">Request Proposal</button>
-          <p class="form__ok" hidden>✔ Thank you! (Demo: the form will be connected during development.)</p>
+          <label>Message<textarea name="message" rows="4"></textarea></label>
+          <button class="btn btn--primary btn--lg btn--block" type="submit">Send Enquiry</button>
+          <p class="form__note">Your email app will open with the details filled in.</p>
         </form>
       </div>
     </section>
   </main>
 
-  <!-- 15. FOOTER -->
-  <footer class="footer" data-section="15 · Footer – registrations & disclosures">
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
     <div class="container footer__grid">
       <div>
-        <div class="footer__logo"><img src="assets/logo.png" alt="Afroj Charitable Trust – Small Acts… Big Changes" width="180" height="180" loading="lazy" /></div>
-        <p>Restoring sight and dignity in rural India since <span class="ph">20XX</span>.</p>
+        <div class="footer__logo"><img src="assets/logo.png" alt="Afroj Charitable Trust – Small Acts… Big Changes" width="150" height="150" loading="lazy" /></div>
+        <p>Restoring sight. Restoring independence. Strengthening communities — in rural Jharkhand since 2013.</p>
       </div>
       <div>
-        <h4>Explore</h4>
-        <a href="#about">About</a><a href="#programs">Programs</a><a href="#impact">Impact</a><a href="#reach">Where We Work</a>
+        <h4>Our Work</h4>
+        <a href="#work">Free Cataract Surgery</a><a href="#work">School Eye Screening</a><a href="#work">Doorstep Care Camps</a><a href="#work">One Eye One Tree</a><a href="#work">Blanket of Light Mission</a>
       </div>
       <div>
         <h4>Get Involved</h4>
-        <a href="#csr">CSR Partnership</a><a href="#donate">Donate</a><a href="#contact">Volunteer</a><a href="#transparency">Reports</a>
+        <a href="#csr">CSR Partnership</a><a href="#donate">Donate</a><a href="#donate">Volunteer</a><a href="#transparency">Transparency</a><a href="#contact">Contact</a>
       </div>
       <div>
-        <h4>Registrations</h4>
-        <p class="small">Trust Reg: <span class="ph">XXXX</span><br />CSR-1: <span class="ph">CSR000XXXXX</span><br />12A / 80G: <span class="ph">XXXXXXXX</span><br />PAN: <span class="ph">XXXXX0000X</span></p>
+        <h4>Registration</h4>
+        <p class="small">Regd. under Indian Trusts Act, 1882<br />Reg. No. 10949/1310 · Est. 2013<br />12A: AAFTA3488FE20219<br />80G: AAFTA3488FF20217<br />CSR-1: CSR00020786<br />NGO Darpan: JH/2019/0222766</p>
       </div>
     </div>
     <div class="container footer__bottom">
       <span>© 2026 Afroj Charitable Trust. All rights reserved.</span>
-      <span>Clinical partner: <a href="https://www.dristyeyehospital.com/" target="_blank" rel="noopener">Dristy Eye Hospital</a> · Privacy Policy · Donation Refund Policy</span>
+      <span>Clinical unit: <a href="https://www.dristyeyehospital.com/" target="_blank" rel="noopener">Dristy Eye Hospital</a></span>
     </div>
   </footer>
 
+  <div class="float-cta">
+    <a href="https://razorpay.com/payment-button/pl_Qs6afCMOpSGgFo/view" target="_blank" rel="noopener" class="float-cta__donate">♥ Donate</a>
+    <a href="#csr" class="float-cta__partner">Partner with Us</a>
+  </div>
+
+  <script src="js/hi.js"></script>
   <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
