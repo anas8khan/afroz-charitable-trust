@@ -41,9 +41,8 @@ Inspired by what works for established NGOs such as NBJK (focus areas, impact nu
 
 ## Before launch – details to fill in
 
-Values highlighted with a dashed yellow box are placeholders:
+Partnership options show a funding unit (per 100 surgeries, per camp series, etc.) instead of fixed prices; budgets go in the project proposal.
 
-- [ ] Cost per partnership option (`₹X lakh`) – e.g. cost per cataract surgery, per camp, per school drive
 - [ ] CSR proposal PDF and downloadable Annual Report 2025–26
 - [ ] Trust's own email/domain (currently imranchouparan@gmail.com, as listed in the Annual Report)
 - [ ] A photo of Kabilash Devi (with consent) for the featured story
