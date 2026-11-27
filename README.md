@@ -1,6 +1,6 @@
 # Afroj Charitable Trust – Website
 
-Website for **Afroj Charitable Trust** (Reg. No. 10949/1310, Indian Trusts Act 1882, est. 2013), Chouparan, Hazaribagh, Jharkhand. It is built to explain **what the trust does, how it works and its impact**, so CSR teams and donors can decide to fund it quickly.
+Website for **Afroj Charitable Trust** (Reg. No. 10949/1310, Indian Trusts Act 1882, est. 2013), Chouparan, Hazaribagh, Jharkhand, serving villages across Jharkhand and Bihar. It is built to explain **what the trust does, how it works and its impact**, so CSR teams and donors can decide to fund it quickly.
 
 Live preview: https://anas8khan.github.io/afroz-charitable-trust/
 
@@ -9,11 +9,11 @@ Live preview: https://anas8khan.github.io/afroz-charitable-trust/
 | Section | Purpose for CSR funders |
 |---|---|
 | Top bar | Registration facts up front (Reg. No., Act, 12A/80G, CSR-1) |
-| Hero | Real field photo, tagline, CSR call to action, impact card (74,344+ free cataract surgeries) |
+| Hero | Real field photo, 'Small acts in every village, big changes in every life' headline, all programmes in one line, CSR call to action, impact card |
 | Impact numbers | 74,344+ free surgeries since 2013, 6,254 in 2025–26, 1,00,000+ patients/year, 93% surgeries free, 50,000+ students, 10,000+ trees |
 | Who we are | Origin story (2011 survey → 2013 registration → own hospital), 3 centres, govt. support |
-| Our journey | Timeline 2011 → 2025–26 → goal of 10,000 free surgeries a year |
-| Secretary's message | Summary of Md. Imran Khan's message from the Annual Report |
+| Our journey | Zig-zag timeline: 2011 survey, 2013 trust + doorstep camps, own hospital, 2015 school screening, 2017 One Eye One Tree, 2018 Save Environment, 2019 Blanket of Light, 2025–26, goal |
+| Secretary's message | Summary of Md. Imran Khan's message |
 | How we work | Identify → Screen → Counsel → Treat → Follow up → Reconnect (community-to-care pathway) |
 | Our work | 6 running programmes with "since" year, Schedule VII tag and key metric, plus "Beyond eye care" |
 | Dristy Eye Hospital | Clinical quality indicators, services, medical team |
@@ -31,7 +31,7 @@ Inspired by what works for established NGOs such as NBJK (focus areas, impact nu
 
 ## Content sources
 
-- **Afroj Charitable Trust Annual Report 2025–26** – surgery figures, journey, Secretary's message, care pathway, clinical quality indicators, services, doctors, Kabilash Devi story, CSR opportunities, 2026–30 roadmap, compliance, registration numbers and contact.
+- **Trust and hospital records (2025–26)** – surgery figures, journey, Secretary's message, care pathway, clinical quality indicators, services, doctors, Kabilash Devi story, CSR opportunities, 2026–30 roadmap, compliance, registration numbers and contact.
 - **Audit reports FY 2021–22 to 2023–24** – "₹3.3 crore spent in FY 2023–24, over 90% on hospital and patient care", activity list under "Beyond eye care", registered office address.
 - Other programme figures (school screening, doorstep camps, trees, blankets) come from the existing trust/hospital content.
 
@@ -43,10 +43,11 @@ Inspired by what works for established NGOs such as NBJK (focus areas, impact nu
 
 Partnership options show a funding unit (per 100 surgeries, per camp series, etc.) instead of fixed prices; budgets go in the project proposal.
 
-- [ ] CSR proposal PDF and downloadable Annual Report 2025–26
-- [ ] Trust's own email/domain (currently imranchouparan@gmail.com, as listed in the Annual Report)
+- [ ] CSR proposal PDF and downloadable impact report
+- [ ] Trust's own email/domain (currently imranchouparan@gmail.com)
 - [ ] A photo of Kabilash Devi (with consent) for the featured story
 - [ ] Partner/supporter logos and any CSR partner testimonials
+- [ ] Professional photo of Md. Imran Khan in formal wear (current photo has a studio background added)
 - [ ] Hindi review by a native speaker
 ## Tech
 

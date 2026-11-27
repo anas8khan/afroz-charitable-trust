@@ -26,13 +26,7 @@ window.HI_DICT = {
 
   // Hero
   "Patients and volunteers planting trees after free cataract surgery": "मुफ़्त मोतियाबिंद ऑपरेशन के बाद पौधे लगाते मरीज़ और स्वयंसेवक",
-  "Rural Jharkhand · Since 2013": "ग्रामीण झारखंड · 2013 से",
-  "Putting the last first —": "अंतिम व्यक्ति को सबसे पहले —",
-  "one restored sight": "हर लौटी हुई रोशनी",
-  "at a time.": "के साथ।",
   "Restoring sight. Restoring independence. Strengthening communities.": "रोशनी लौटाना। आत्मनिर्भरता लौटाना। समुदायों को सशक्त बनाना।",
-  "Afroj Charitable Trust brings free cataract surgery, eye screening, spectacles and community care to the poorest villages of Hazaribagh, Chatra and Koderma — through our own eye hospital and a network of village camps.":
-    "अफ़रोज चैरिटेबल ट्रस्ट अपने नेत्र अस्पताल और गाँव-गाँव लगने वाले शिविरों के ज़रिए हज़ारीबाग, चतरा और कोडरमा के सबसे गरीब गाँवों तक मुफ़्त मोतियाबिंद ऑपरेशन, नेत्र जाँच, चश्मे और सामुदायिक देखभाल पहुँचाता है।",
   "Partner under CSR": "CSR के तहत जुड़ें",
   "⬇ CSR Proposal": "⬇ CSR प्रस्ताव",
   "12A · 80G · CSR-1 registered": "12A · 80G · CSR-1 पंजीकृत",
@@ -50,13 +44,10 @@ window.HI_DICT = {
   "Of all surgeries done free of cost": "सभी ऑपरेशन पूरी तरह मुफ़्त",
   "School children screened": "स्कूली बच्चों की नेत्र जाँच",
   "Trees planted by patients": "मरीज़ों द्वारा लगाए गए पेड़",
-  "Source: Afroj Charitable Trust Annual Report 2025–26 and trust records. Programme-wise data available on request.":
-    "स्रोत: अफ़रोज चैरिटेबल ट्रस्ट वार्षिक रिपोर्ट 2025–26 और ट्रस्ट के रिकॉर्ड। कार्यक्रम-वार आँकड़े अनुरोध पर उपलब्ध।",
 
   // About
   "Village eye camp run by the trust": "ट्रस्ट द्वारा आयोजित गाँव का नेत्र शिविर",
   "Dristy Eye Hospital, Chouparan": "दृष्टि आई हॉस्पिटल, चौपारण",
-  "Serving rural Jharkhand since": "से ग्रामीण झारखंड की सेवा में",
   "Who We Are": "हम कौन हैं",
   "A community trust that grew out of one simple idea: no one should go blind because they are poor.":
     "एक सामुदायिक ट्रस्ट, जो एक सरल विचार से जन्मा: गरीबी के कारण कोई भी अंधा न रहे।",
@@ -82,7 +73,6 @@ window.HI_DICT = {
   "First surgeries": "पहले ऑपरेशन",
   "Volunteers connect patients with free treatment at hospitals across the region.": "स्वयंसेवकों ने मरीज़ों को क्षेत्र के अस्पतालों में मुफ़्त इलाज से जोड़ा।",
   "Trust registered": "ट्रस्ट पंजीकृत",
-  "Afroj Charitable Trust is formally established (Reg. No. 10949/1310).": "अफ़रोज चैरिटेबल ट्रस्ट की औपचारिक स्थापना (पंजीकरण सं. 10949/1310)।",
   "Next": "फिर",
   "Our own hospital": "अपना अस्पताल",
   "The trust builds Dristy Eye Hospital at Chouparan, with vision centres in Chatra and Koderma.": "ट्रस्ट ने चौपारण में दृष्टि आई हॉस्पिटल बनाया, साथ ही चतरा और कोडरमा में विज़न सेंटर।",
@@ -98,8 +88,6 @@ window.HI_DICT = {
   "Md. Imran Khan, Secretary and Trustee": "मो. इमरान ख़ान, सचिव एवं ट्रस्टी",
   "From the Secretary's Desk": "सचिव की कलम से",
   "Treatment is a pathway back to independence and dignity.": "इलाज, आत्मनिर्भरता और सम्मान की ओर लौटने का रास्ता है।",
-  "In rural Jharkhand, losing sight often means losing work, income and a place in the family. In his message in our Annual Report 2025–26, Md. Imran Khan explains how camps, free spectacles, free medicines and awareness drives are meant to give that independence back.":
-    "ग्रामीण झारखंड में आँखों की रोशनी खोने का मतलब अक्सर काम, आमदनी और परिवार में अपनी जगह खो देना होता है। हमारी वार्षिक रिपोर्ट 2025–26 में अपने संदेश में मो. इमरान ख़ान बताते हैं कि शिविर, मुफ़्त चश्मे, मुफ़्त दवाइयाँ और जागरूकता अभियान उसी आत्मनिर्भरता को लौटाने के लिए हैं।",
   "Outreach today runs not only through village heads but through ordinary villagers and successful patients themselves. The ambition is to become a model eye-care institution for the region.":
     "आज हमारी पहुँच केवल मुखियाओं के ज़रिए नहीं, बल्कि आम ग्रामीणों और ठीक हो चुके मरीज़ों के ज़रिए भी होती है। लक्ष्य है — इस क्षेत्र के लिए एक आदर्श नेत्र-सेवा संस्थान बनना।",
   "Md. Imran Khan": "मो. इमरान ख़ान",
@@ -153,7 +141,6 @@ window.HI_DICT = {
   "Since 2019": "2019 से",
   "Poverty Relief · Schedule VII (i)": "गरीबी राहत · अनुसूची VII (i)",
   "Blanket of Light Mission": "रोशनी का कंबल मिशन",
-  "Warm blankets for patients and poor families during harsh Jharkhand winters — care that goes beyond the eyes.": "झारखंड की कड़ाके की सर्दी में मरीज़ों और गरीब परिवारों के लिए गर्म कंबल — आँखों से आगे की देखभाल।",
   "people kept warm": "लोगों को ठंड से राहत",
   "Save Environment, Save Eyesight awareness drive": "‘पर्यावरण बचाओ, दृष्टि बचाओ’ जागरूकता अभियान",
   "Since 2018": "2018 से",
@@ -182,7 +169,6 @@ window.HI_DICT = {
   "Modern SICS or PHACO technique": "आधुनिक SICS या PHACO तकनीक",
   "Posterior capsule rupture rate": "पोस्टीरियर कैप्सूल रप्चर दर",
   "Post-operative infection rate": "ऑपरेशन के बाद संक्रमण दर",
-  "Clinical quality indicators, Annual Report 2025–26.": "क्लिनिकल गुणवत्ता संकेतक, वार्षिक रिपोर्ट 2025–26।",
   "Services": "सेवाएँ",
   "PHACO with foldable IOL": "फ़ोल्डेबल IOL के साथ PHACO",
   "Nd:YAG laser for PCO": "PCO के लिए Nd:YAG लेज़र",
@@ -234,9 +220,6 @@ window.HI_DICT = {
 
   // Where we work
   "Where We Work": "हम कहाँ काम करते हैं",
-  "Rooted in the villages of north Jharkhand": "उत्तरी झारखंड के गाँवों से जुड़ी जड़ें",
-  "We work across Hazaribagh, Chatra and Koderma — districts with large tribal and rural populations, where an eye surgeon can be a full day's journey away.":
-    "हम हज़ारीबाग, चतरा और कोडरमा में काम करते हैं — बड़ी आदिवासी और ग्रामीण आबादी वाले ज़िले, जहाँ नेत्र सर्जन तक पहुँचने में पूरा दिन लग सकता है।",
   "Main hospital · Hazaribagh district": "मुख्य अस्पताल · हज़ारीबाग ज़िला",
   "Vision Centre, Chatra": "विज़न सेंटर, चतरा",
   "Bypass Road, Chatra": "बाईपास रोड, चतरा",
@@ -256,7 +239,6 @@ window.HI_DICT = {
   "Stories of Change": "बदलाव की कहानियाँ",
   "Real people. Real villages. Restored lives.": "असली लोग। असली गाँव। संवरती ज़िंदगियाँ।",
   "Cataract surgery in progress at Dristy Eye Hospital": "दृष्टि आई हॉस्पिटल में चल रहा मोतियाबिंद ऑपरेशन",
-  "Featured in Annual Report 2025–26": "वार्षिक रिपोर्ट 2025–26 में प्रकाशित",
   "Kabilash Devi: from rejected to independent": "कबिलाश देवी: उपेक्षा से आत्मनिर्भरता तक",
   "Kabilash Devi's eyesight had failed so badly that she could no longer look after herself, and her own family had turned away from her. A screening camp in her village brought her to Dristy Eye Hospital, where free cataract surgery restored her sight.":
     "कबिलाश देवी की आँखों की रोशनी इतनी कम हो गई थी कि वे अपना ख़याल भी नहीं रख पाती थीं, और उनके अपने परिवार ने उनसे मुँह मोड़ लिया था। गाँव में लगे एक जाँच शिविर के ज़रिए वे दृष्टि आई हॉस्पिटल पहुँचीं, जहाँ मुफ़्त मोतियाबिंद ऑपरेशन से उनकी रोशनी लौट आई।",
@@ -382,7 +364,6 @@ window.HI_DICT = {
   "Partnerships": "साझेदारियाँ",
   "Data & reporting": "डेटा और रिपोर्टिंग",
   "Get our CSR Proposal Kit": "हमारी CSR प्रस्ताव किट पाएँ",
-  "Programme brief, budgets, registration certificates and latest annual report — in one PDF for your CSR committee.": "कार्यक्रम विवरण, बजट, पंजीकरण प्रमाणपत्र और नवीनतम वार्षिक रिपोर्ट — आपकी CSR समिति के लिए एक ही PDF में।",
   "Request Proposal": "प्रस्ताव मँगाएँ",
 
   // Partners
@@ -421,7 +402,6 @@ window.HI_DICT = {
   "Training and jobs for women in healthcare and community work": "स्वास्थ्य सेवा और सामुदायिक कार्य में महिलाओं के लिए प्रशिक्षण और रोज़गार",
   "Skill development and employment in rural areas": "ग्रामीण क्षेत्रों में कौशल विकास और रोज़गार",
   "Documents on request": "अनुरोध पर उपलब्ध दस्तावेज़",
-  "Trust deed · 12A & 80G certificates · CSR-1 · PAN · Audited financials (FY 2021–22 to 2023–24) · Annual Report 2025–26": "ट्रस्ट डीड · 12A और 80G प्रमाणपत्र · CSR-1 · PAN · ऑडिटेड वित्तीय विवरण (वित्त वर्ष 2021–22 से 2023–24) · वार्षिक रिपोर्ट 2025–26",
   "Request documents →": "दस्तावेज़ मँगाएँ →",
   "Compliance & approvals": "अनुपालन और स्वीकृतियाँ",
   "Clinical establishment registration": "क्लिनिकल एस्टैब्लिशमेंट पंजीकरण",
@@ -485,7 +465,6 @@ window.HI_DICT = {
   "Your email app will open with the details filled in.": "आपका ईमेल ऐप भरे हुए विवरण के साथ खुलेगा।",
 
   // Footer & float
-  "Restoring sight. Restoring independence. Strengthening communities — in rural Jharkhand since 2013.": "रोशनी लौटाना। आत्मनिर्भरता लौटाना। समुदायों को सशक्त बनाना — 2013 से ग्रामीण झारखंड में।",
   "Donate": "दान करें",
   "Registration": "पंजीकरण",
   "Reg. No. 10949/1310 · Est. 2013": "पंजीकरण सं. 10949/1310 · स्थापना 2013",
@@ -493,4 +472,31 @@ window.HI_DICT = {
   "© 2026 Afroj Charitable Trust. All rights reserved.": "© 2026 अफ़रोज चैरिटेबल ट्रस्ट। सर्वाधिकार सुरक्षित।",
   "Clinical unit:": "चिकित्सा इकाई:",
   "Afroj Charitable Trust – Small Acts… Big Changes": "अफ़रोज चैरिटेबल ट्रस्ट – छोटे प्रयास… बड़े बदलाव",
+
+  // Content update: headline, Jharkhand & Bihar, journey
+  "Jharkhand & Bihar · Since 2013": "झारखंड और बिहार · 2013 से",
+  "Small acts in every village,": "हर गाँव में छोटे प्रयास, हर ज़िंदगी में",
+  "big changes": "बड़े बदलाव",
+  "in every life.": "लाते हैं।",
+  "Afroj Charitable Trust works with the poorest families of rural Jharkhand and Bihar — free cataract surgery and eye care at our own hospital, school eye screening, doorstep camps for the elderly and disabled, health check-up camps and free medicines, warm blankets in winter, tree plantation drives, and skills, literacy and legal-aid support for women and youth.": "अफ़रोज चैरिटेबल ट्रस्ट ग्रामीण झारखंड और बिहार के सबसे गरीब परिवारों के साथ काम करता है — अपने अस्पताल में मुफ़्त मोतियाबिंद ऑपरेशन और आँखों का इलाज, स्कूलों में नेत्र जाँच, बुज़ुर्गों और दिव्यांगों के लिए घर-द्वार शिविर, स्वास्थ्य जाँच शिविर और मुफ़्त दवाइयाँ, सर्दियों में गर्म कंबल, पौधारोपण अभियान, और महिलाओं व युवाओं के लिए कौशल, साक्षरता और क़ानूनी सहायता।",
+  "Source: trust and hospital records, 2025–26. Programme-wise data available on request.": "स्रोत: ट्रस्ट और अस्पताल के रिकॉर्ड, 2025–26। कार्यक्रम-वार आँकड़े अनुरोध पर उपलब्ध।",
+  "Serving Jharkhand & Bihar since": "से झारखंड और बिहार की सेवा में",
+  "In rural Jharkhand and Bihar, losing sight often means losing work, income and a place in the family. Md. Imran Khan believes camps, free spectacles, free medicines and awareness drives can give that independence back.": "ग्रामीण झारखंड और बिहार में आँखों की रोशनी खोने का मतलब अक्सर काम, आमदनी और परिवार में अपनी जगह खो देना होता है। मो. इमरान ख़ान का मानना है कि शिविर, मुफ़्त चश्मे, मुफ़्त दवाइयाँ और जागरूकता अभियान उसी आत्मनिर्भरता को लौटा सकते हैं।",
+  "Warm blankets for patients and poor families during harsh winters in Jharkhand and Bihar — care that goes beyond the eyes.": "झारखंड और बिहार की कड़ाके की सर्दी में मरीज़ों और गरीब परिवारों के लिए गर्म कंबल — आँखों से आगे की देखभाल।",
+  "Clinical quality indicators, 2025–26.": "क्लिनिकल गुणवत्ता संकेतक, 2025–26।",
+  "Story of change": "बदलाव की कहानी",
+  "Programme brief, budgets, registration certificates and impact data — in one PDF for your CSR committee.": "कार्यक्रम विवरण, बजट, पंजीकरण प्रमाणपत्र और प्रभाव के आँकड़े — आपकी CSR समिति के लिए एक ही PDF में।",
+  "Trust deed · 12A & 80G certificates · CSR-1 · PAN · Audited financials (FY 2021–22 to 2023–24) · Impact reports": "ट्रस्ट डीड · 12A और 80G प्रमाणपत्र · CSR-1 · PAN · ऑडिटेड वित्तीय विवरण (वित्त वर्ष 2021–22 से 2023–24) · प्रभाव रिपोर्ट",
+  "Restoring sight. Restoring independence. Strengthening communities — in rural Jharkhand and Bihar since 2013.": "रोशनी लौटाना। आत्मनिर्भरता लौटाना। समुदायों को सशक्त बनाना — 2013 से ग्रामीण झारखंड और बिहार में।",
+  "Rooted in the villages of Jharkhand and Bihar": "झारखंड और बिहार के गाँवों से जुड़ी जड़ें",
+  "We work across Hazaribagh, Chatra and Koderma in Jharkhand and the neighbouring districts of Bihar — areas with large tribal and rural populations, where an eye surgeon can be a full day's journey away.": "हम झारखंड के हज़ारीबाग, चतरा और कोडरमा और बिहार के पड़ोसी ज़िलों में काम करते हैं — बड़ी आदिवासी और ग्रामीण आबादी वाले इलाके, जहाँ नेत्र सर्जन तक पहुँचने में पूरा दिन लग सकता है।",
+  "Neighbouring districts of Bihar": "बिहार के पड़ोसी ज़िले",
+  "Patients reached through camps and referrals": "शिविरों और रेफ़रल के ज़रिए मरीज़ों तक पहुँच",
+  "Jharkhand": "झारखंड",
+  "Bihar": "बिहार",
+  "▲ Bihar": "▲ बिहार",
+  "Tree-planting drives and awareness on how pollution and deforestation harm eye health.": "पौधारोपण अभियान और इस बारे में जागरूकता कि प्रदूषण और वनों की कटाई आँखों को कैसे नुकसान पहुँचाते हैं।",
+  "Afroj Charitable Trust is formally established (Reg. No. 10949/1310) and Doorstep Care Camps begin for the elderly and disabled.": "अफ़रोज चैरिटेबल ट्रस्ट की औपचारिक स्थापना (पंजीकरण सं. 10949/1310) और बुज़ुर्गों व दिव्यांगों के लिए घर-द्वार सेवा शिविरों की शुरुआत।",
+  "Free eye check-ups and spectacles for children in rural and urban schools.": "ग्रामीण और शहरी स्कूलों में बच्चों के लिए मुफ़्त नेत्र जाँच और चश्मे।",
+  "Warm blankets for patients and poor families every winter. The trust is also registered on NGO Darpan.": "हर सर्दी में मरीज़ों और गरीब परिवारों के लिए गर्म कंबल। ट्रस्ट NGO दर्पण पर भी पंजीकृत हुआ।",
 };
